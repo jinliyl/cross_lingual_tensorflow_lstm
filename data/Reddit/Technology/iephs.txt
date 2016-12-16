@@ -1,0 +1,88 @@
+-	-	http://www.youtube.com/watch?v=SNxCvDYpmxE
+0	5	Why didn t it work. The did not over pay.
+1	4	I believe "even" in this context means "rounded".
+1	4	I read it as "even" as in not odd.
+1	4	&gt; I'm betting this move was more to drain rival resources than anything else.  This.  Google knows how to encode information in ways for people smart enough to look for it to find it. Irreverence, as they displayed, is one way to say "this thing is a joke, so lets make it funny." The punchline was the largely decreased warchests of Microsoft et al.
+0	6	Can you tell me what was the significance of the patents in that thing?
+0	6	Restructuring the patent system? In a country owned by corporations? Good luck with that.
+1	4	[Ooooooh!](http://i.imgur.com/I1yDk.jpg)
+1	4	I parsed this as google trying to bid "waffles" on at least 1 bid. ## &gt;_&gt;
+-	-	\*facepalm\*
+0	5	I honestly don't think google really cared.  They seem to be putting far more money and resources to restructuring the patent system as a whole.  In which case, buying patents isn't really of interest to them.  I'm betting this move was more to drain rival resources than anything else.
+0	5	They got the other guys to pay 3 times what the patents were worth.   It's hard for people to think in non-round numbers, and I think google's bidding strategy was to distract and confuse the other companies until they got frustrated and bid more than they should have. I think it worked.  
+1	4	Is there a list of the highlights of what was in these patents?  I have a couple of networking patents.  I believe mine are worth about $3 a piece.
+0	6	What spectrum are you talking about?
+0	2	Yeah, I wouldn't pay any attention to the guys bidding 3.1 billion dollars. They're complete jokes.
+1	4	The article mentioned how they (everyone) expected the patents to go for 900 million. Google made their competitors spend **five times that**.
+1	4	I don't want to give away details for anonymity reasons, but my evaluation of their worth more corresponds to how much effort it would take to make these patents stick against patents that are similar in a legal dispute.  It seems that unless a patent is for something like fire or the wheel that its intrinsic value is little without all the hours that need to be paid to the lawyers who are defending it.    My guess is that the Nortel portfolio has 10-20 real gems in it that have had some amount of legal testing beyond their acceptance by the patent office.  These probably have to with telephone switching and voice/data transmission.  I was mostly looking for a link to see if anyone sorted the wheat from the chaff.
+1	4	3.1 billion dollars, twice the analyst-expected amount, isn't serious?
+1	4	I don't care. If anyone won the auction with a bid of pi, I would demand exact change. That would teach them to be such smart alecs!
+0	1	DONT YOU MEAN CARROTS?!?!?!
+1	4	Very good point, but that being said Google has a war chest of more than 36 billion, public opinion, and a constant stream of information to the public on its side.  Further, google is a information company that dabbles in technology.  Wireless spectrum and wireless communications technology are *not* its thing.  Although never said outright, Google's actions within the tech world suggest that they feel that wireless communication should be unobtrusive; dumb pipes basically.  I'm betting they are willing to fight for this.  The reason no one fights or wins on the side of fixing the patent system is because no one with the money to do so cares to try.  That is changing now.  So basically, the country is bought and payed for by corporations, and one of the biggest just switched sides.  
+0	1	Goddammit.  IF YOU HAD READ THE ARTICLE, YOU WOULD HAVE SEEN THE ANSWER.  Google started off bidding constants that were less famous, than say, pi...
+0	2	Perhaps. They're worth a lot, and I guess if google had won at $3.14B then it would have been a good acquisition, but not winning them and making another company pay well over the odds is also a good outcome for them. Will the patents really bring in or earn them an extra $4B in revenue? I doubt it.
+0	2	use of lmgtfy is to show how it was just as easy to google the question instead of asking reddit and wasting someone elses time.
+1	4	They probably aren't going to be splitting up the patents, they're probably going to be sharing ownership. As in, they can all use the patents, it's not like Company A gets 200 patents and Company B gets 300.  The entire point of patents is that you get to keep other people from using the patents. Presumably those companies are in competition with Google, but not with each other. Bringing Google into the fold might defeat the entire purpose of buying the patents.
+1	4	Well, they could just pay 3,141,592,655 and tell them to keep the change.
+1	4	It says all the other companies won the portfolio. Even if they all agreed to split the single block of patents, they now have to work that out amongst themselves and they all spent their money on it. If there were any patents Google felt it needed, they would have found a way to get *something* they wanted.
+1	4	Fair enough of a point.  I still feel like Google didn't take it seriously enough. If they wanted or needed those patents, they could have gone for it. I feel like if they want to keep companies innovating, they would be more than happy to share. They're not fond of patents in general, especially not software patents. It could very well be that they didn't want to necessarily deny the other companies the ability to do certain things, but they did want them to pay a large amount up front for it.
+1	4	Well, hopefully. It's more likely they just spent money on them as a legal defense and they'll end up never using the useful ones or even looking at the useless "patent troll" stuff. It'll sit around and they won't touch it unless someone tries to sue them, then they'll double check they don't have a patent on it already.  But with some luck they'll try to fight each other, especially once they realize Google probably has no use for them and neither do they except as a legal defense.
+1	4	so, those companies will be so busy suing each other that by the time they work it out, the patents will be expired ;-)
+1	4	Based on this context, it's easy to figure out what to search for.  &gt;Google did something similar with the spectrum auctions a few years back
+1	4	Wow it took the combined resources of 6 companies to outbid google.
+1	4	They should have bid [tau.](http://tauday.com)
+0	2	Not really. Google obviously didn't care, they just made life difficult and confusing for others. Sony-Ericsson does their own thing. All of these companies cooperate to some degree. I'd imagine things would be more awkward if Google went out of their way to target Sony's efforts and block them from getting anything, but that's not the case.
+1	4	Technically, Sony Ericsson wasn't in the deal. Just Sony and Ericsson (Sony Ericsson's owners.)
+1	4	Sure collectively these companies paid 3 times more than the patents were assumed to be worth, but individually (with even division) they only paid $750 million each, or significantly less than Google's opening bid of $900 million. Couple that with the fact that Google already has a weak patent portfolio and I could see these Nortel patents being used to coerce more Android OEMs and perhaps Google itself to pay licencing fees to this consortium. Whether those amount to $4.5 billion is anyone's guess though.
+0	5	Hmm.. I don't know... are people really that stupid?   I think they would've been confused as to why Google was bidding this way, but they probably would've been smart enough to round off pi to ~3.14 billion in their heads.
+1	4	So if Google won, would we be talking about how the other bidders got Google to bid $3.14 billion?
+1	4	Considering apple has some $80 billion lying around, it's more about business strategy than resources
+1	4	Erm, they didn't bid $3.14, they bid ~$3,140,000,000. 
+1	4	May I ask what they're for?  (Is that rude?  I have a feeling it's like asking a woman's age or how much money somebody makes.  Sorry if it is.)
+1	4	I think the other article at the same site pertaining to the result of this auction is more informative as to why these patents and applications are strategically important: http://www.reuters.com/article/2011/07/01/us-nortel-idUSTRE7600PF20110701
+0	6	What could they have done though? It's an auction. If Google bids just to push the price up, that's their business. It's still a valid bid. They could have known exactly what would happen the whole time, and there really wouldn't have been anything they could do to stop it.
+1	4	drop in the bucket yes, but they also then divvy out the patents
+0	2	No I wasn't trolling at all. Not sure why you would think that, I don't see any sarcasm or indication of this. I don't know what's contained in these patents and I wanted to know what exactly they were buying, patents for what sorts of things. What's in there that's worth 4+ billion dollars? Are companies basically going to patent troll other companies so they're afraid? I doubt the lawsuits are worth more than 4 billion? Or are they going to get royalties.  Thanks for your post.
+1	4	HAHAHAHAHAHAHAHAHAHA
+1	4	&gt; if google had won at $3.14B then it would have been a good acquisition  What is wrong with you people? If google spends a large amount of money, it would be a good aquisition. If someone else spends a large amount of money, google tricked them into spending more than they should have.  I'd make a crack about cupping the Google guys balls while you guys blow them but you probably already are.
+1	4	I did read the article. :)  Pi was just an example. My point is that people aren't that stupid -- at least I hope not!).  The weird numbers would've confused everyone, but it wouldn't affect the decision making or the math. If Rival A decided 3 billion was as high as they were willing to go, then a bid of pi billion would shut them out. It didn't matter that Google was choosing weird numbers that weren't rounded.
+1	4	They didn't bid pi dollars, they bid $3,141,590,000 dollars. There's no fractions of cents to deal with, they didn't say "we bid pi times a billion dollars", they said "we bid 3 billion, 141 million, 590 thousand dollars", which just so happens to be the first few digits of pi.
+0	5	Oh Im sorry I misunderstood your comment. Yeah lol, exact change with pi would be pretty hard...
+1	4	It's not serious because they could have payed up for *some* patents and instead walked away with nothing despite their antics.
+1	4	They weren't expecting to spend it or they would have.
+1	4	[Google involvement in the United States 2008 wireless spectrum auction](http://en.wikipedia.org/wiki/United_States_2008_wireless_spectrum_auction#Google_involvement)
+1	4	&gt; Google's bids were mystifying, such as $1,902,160,540 and $2,614,972,128.  &gt; "Google was bidding with numbers that were not even numbers," one of the sources said.  ಠ_ಠ  
+1	4	I'd rather seem them spend pi billion dollars lobbying the government to get rid of the fucking patent system.
+1	4	4 billion is 40 times 100 million.
+0	5	They should have used tou
+0	5	more like a billion pies...
+1	4	Cool and all, but they didn't actually win any of the bids...
+1	4	You do not fail if you do not win an auction. If you win an auction and the price is to high you loose. If you loose an auction where the price is right or to low you win.
+0	5	But I thought patents were supposed to help the little guy. Kind of hard to come up with 4$ billion just to start a business, no?
+1	4	Things like this make me want to continue being a cog in Google's money machine.  I hope they never lose their sense of humor.
+1	4	10/10 troll google, getting other companies to waste money on patents they don't care about by bidding strange numbers.
+1	4	It is time for Google to become more serious about such things.P
+0	5	I don't see how it could work - you couldn't have exact change to pay (or couldn't get exact change back).
+1	4	&gt; largely decreased warchests  You're joking, right?  $4.5B split amongst 6 partners is a drop in the bucket for each.
+1	4	Not sure if your trolling.  However, your question is friendly enough so I'll bite.    The patents were with regard to LTE.  Basicly, they give the holder rights over technologies related to how LTE delivers streaming media to mobile phones.  Since Google is getting into the mobile market it seems reasonable that they would want these patents.  This is based on the old logic that Google wants to use them as a carrot and/or stick to keep companies in line and promote its market dominance.  My opinion is that the old strategy is not Google's strategy.   My reason for this is first and formost Page is in control.  I hate to sound like I'm swinging from another man's jock strap but Page has not given the impression that he likes political bull shit.  This is the same guy who opposed working with china (it was okayed by Schmidt), and started a book scanning project basically on his own licensing be damned, and effectively blew of the investment industry.  He has given a strong inclination to *only* like the advancement of technology, not its ownership.  I'm pretty sure his logic is "I'm rich, so I want to do what I'm interested in now".  He is using his (big) company do work his on agenda and truth be told, the guy is freaking smart.  Look at the free wifi in mountain view.  This is not Google trying to bring free wifi to the world, its an example of what others can do; what could happen.  The same goes for think big with a gig; this isn't a reach into the teleco market, its a threat to teleco to improve.  Lets not forget that Google is on monopoly watch and really has to be careful with their acquisitions.  My assessment is that Google's war chest will go to both grass root and higher level political change geared at changing the way patents are handled.    
+1	4	It's clear that they had ulterior motives to their actions. They obviously didn't intend to win anything or they'd have made a more serious offer.
+1	4	Google did something similar with the spectrum auctions a few years back, also successfully lobbying to put certain requirements in place for how the spectrum is used. Google never intended to win, but their bid was serious enough that it made others that were intent on winning pony up big and have to take the new spectrum with the new rules. 
+1	4	Just because they had some fun with the numbers doesn't mean they weren't serious.  They bid up to $4 billion but were unwilling to go up to $4.5 billion.  It took a consortium of 6 giant technology companies to outbid google.  That seems pretty serious to me.
+1	4	I expect it's cheaper to hire lawyers than to pay so much
+0	2	They didn't actually bid pi, they bid a rounded version. According to the article, they went to the fifth decimal place (and then multiplied it by a billion).
+0	2	Nah, they bid what they could either way. This just shows that they can do two things at once.
+1	4	OH, I think Google will care very much when Android comes under ever MORE fire for patent infringement.
+1	4	Ha! These are just numbers on a computer screen. Its not like someone seriously has a briefcase full of 6 billion dollars waiting to be payed out to a patent troll at some auction.
+0	5	&gt;Whatever its reasons, Google's shenanigans did not work.  Shenanigans?  
+1	4	TIL 3/4 of Reddit knew the approach and plan Google was bringing to a $4,000,000,000 auction.  Too bad Microsoft, Sony, Apple and Intel didn't think to outsource themselves here to get the scoop on how Google would approach the auction. Could have saved themselves a couple of billion.  
+1	4	Considering Sony-Ericsson was in this deal it's going to be pretty awkward next google IO.
+1	4	Thanks
+1	4	The story makes it sound rather like the patents were up as a single unified block. So, no, it's quite likely they couldn't have.
+1	4	That's why I always just round pi up to 4...
+0	5	For a technology company, it is disappointing that this is the best they could do. I mean, why even bother.
+1	4	If they really would have bid $Pi billion and won, it would have taken them until infinity to get the last cent right with a file and fine sandpaper. 
+1	4	The reason that is so is because Google could really use the patents, so if they won even if they won while paying a little too much, it would be a good move for them.  These other companies don't really need the patents like Google does, so making them pay too much is also a benefit to Google.
+0	5	Yes... make them fight against each other. [Excellent](http://i.imgur.com/zSIxG.jpg)
+-	-	[Let me Google that for you.](http://www.lmgtfy.com/?q=google+spectrum+bid&amp;l=1)
+1	4	If google really *needs* the patents then they didn't win; no matter how much their competitors paid.
+1	4	if you wasted your own time getting a lmgtfy link, it could have been used better to get an actual link.

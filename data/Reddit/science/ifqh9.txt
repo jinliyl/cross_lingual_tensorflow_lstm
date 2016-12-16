@@ -1,0 +1,7 @@
+-	-	Honestly, how could this have happened. Something smells fishy. How could ab43 have been undiscovered(to be a major component) so long if it is so abundant? Another question is where is this 43 found? Is it in plaques or is it soluble? Its in nature neuroscience so i'm sure the science is legit, but it seems too much of a breakthrough not to have happened before.
+1	6	A cellular peptide cake, maybe? With mint frosting?
+-	-	"little-studied amyloid peptide"? Not exactly. The link between Amyloid Beta and neurodegenerative diseases such as Alzheimer's and Parkinson's has undergone extensive investigation in the past few years. http://www.ncbi.nlm.nih.gov/pubmed?term=amyloid%20beta%20alzheimer
+-	-	People...this is a press release. Not a news story. I assume everyone knows the difference:  http://www.japancorp.net/press-release/24080/overlooked-peptide-reveals-clues-to-causes-of-alzheimer's-disease
+1	7	It's not easy to trace what proteins are doing, where they're synthesized, what reactions they participate in, etc.  It may be that ab43 was simply another in a long list of proteins waiting to be poked and prodded with the biochem equivalent of traceroute (Pglo being a very popular tool for this).  The list of known proteins and gene products is enormous, but we have only traced the functions of a fraction of them.  
+-	-	I read that as "overclocked" at first, and wondered when this magical new biological technique had been developed.
+-	-	I think they are refering to A-beta 1-43.  Most research thus far has focused on A-beta 1-40 and 1-42.

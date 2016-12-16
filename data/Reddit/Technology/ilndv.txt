@@ -1,0 +1,63 @@
+-	-	Yeah, they should have caught this shit in the beta.
+0	2	You're assuming normal people will organize their friends in the circles to begin with. If not, it's just facebook with more nerd fanboys.
+-	-	You must not be on G+, just saying.
+-	-	I can shoot you an invite to Google+ if you PM your email  (The offer stands for everyone)
+1	6	And the electric/water/gas utilities, roads, streaming media services, phones, almost all webhosting providers, email services, hospitals, fire/police departments, game services (Steam), etc.  Basically no service is designed to handle all customers/potential users all the time.  When starting a new service you have to make an educated guess on growth/used patterns based on whatever evidence you have.  There are mistakes very frequently.  Ever experienced a brownout or 'all lines busy/network overloaded' message on your phone?  
+0	2	It's true. I gave them my email once while I was at work. When I got home my house had burned to the ground.
+0	2	He rapes your churches and burns your women.
+-	-	It's like the Dark Ages. But you need to put the rape IN the church.
+0	8	They totally knew what to expect. Why would you set your daily invite limit astronomically higher than then your server abilities? If that's the case it's still a fail. 
+0	2	It's quite simple and yes, people will organize because they don't want family, friends and business all intermingling.    It's pretty smart.  I think Facebook is fucked.
+-	-	I believe what stratoscope is referring to is that you can't add profiles (and thus can't use Google+ accounts) with Google Apps for Domains accounts. I had to use my gmail-proper email addy to use +, unable to use my own domain hosted up AfD.
+1	4	A circles clone on facebook wouldn't work. Most people have already built large friends list on there, and organizing them now (especially since some people don't even know ask their facebook friends) would be a daunting task.  Since google+ starts fresh, the task is less daunting.  And to be perfectly honest, I'm liking how it is effectively cleaning out my messy friends list without the awkwardness of removing the people I don't care for.  So it really is solving two problems.
+1	6	Good idea! As a Google Apps user, I've got an extra 20GB of Gmail space that I'd be happy to donate... ***IF*** they will [let Google Apps users into Google+](http://www.google.com/support/forum/p/Google+Apps/thread?tid=17b45c62b43447f6&amp;hl=en). (grumble...)
+-	-	You know you don't actually have a block of free space sitting on a harddrive someplace right?
+0	2	Yeah, annoying your current users by spamming them with notifications is a great publicity stunt. 
+0	8	No. You wouldn't be saying that if you saw what their system did as a result. It pretty much freaked out in a small but very visible way. This was just poor growth planning.
+0	2	So what you're saying is that they fucked up. I agree.
+0	8	I remember this same argument being used to say why Google would never outdo Yahoo.
+1	-	But I'm sure that Google had petabytes allocated for Google+ from the very beginning. It's not like they're unfamiliar with the popularity of invitations to their betas. In addition to that, they definitely should have noticed the space slowly filling up before they ran out. It's not like it ran out on the very first day which would have shown that they totally underestimated the space needed.  On the other hand, he said it was a "notification server," which might indicate that they expected the data to be changed often and have old notifications cleared. If that was the case, the fact that they ran out could either show that there was too much activity in a short period of time or that people don't check and clear their notifications as frequently as was expected.
+1	7	Thank you. Maybe I should have phrased it better. Basically what I was saying is this is a marketing ploy.   The way beta invites work is they only release as many invites per day as their servers can handle otherwise they will of course crash. All I tried to say is that since you can see server overload coming from a mile away the only two options are A) someone royally fucked up B) this is just a marketing ploy.   
+-	-	I might as well donate mine to the cause too :(
+1	6	So you didn't realize it was sarcasm/humour? ;-)
+-	-	PM me your email, I'll invite you
+-	-	It's saying "I need to learn punctuation or else I'll never get my point across".
+0	2	I'm saying it might just have been your everyday glitch, but they chose to hype it in their "apology" by sensationalizing: "Google+ is so popular we ran out of server space!! We never expected so many people to approve of our amazing product so soon!! It's better than Facebook ever was!!" etc. (Also I didn't actually see any real evidence that this affected more than a handful of users for around an hour, if it happened at all). I'm not saying it's a bad tactic, nor do I have any additional support for what I think it was.
+-	-	Or even more relevant, how Facebook couldn't do it to myspace...
+-	-	Ok, so NOW I get the limited invite thing.
+0	2	Google running out of disk space...  thats a first.
+0	1	They should have known their disks were getting full before they filled up. If they didn't someone seriously fucked up their job.
+1	4	Haha wow Mr lets cloud everything runs of of disk space.
+-	-	ugh still have yet to get on to this.
+0	1	Everyone is sucking Google's dick in the comments
+-	-	Publicity stunt
+0	2	I blame Felicia.
+-	-	that's what happens when you give everyone 80 invites to start with and then keep increasing them every few days.
+-	-	[Google+ reminds of this](http://www.youtube.com/watch?v=EeOomugrc1w) 
+0	1	Sucking so hard... In reality if their servers "run out of disk space" that implys terrible server management and scaling.  But even so, it's obviously just a marketing ploy.  There was a set number of invites to be released daily so how again could they be shocked by this?
+0	2	don't! it's a TRAP!
+-	-	Because they wouldn't have only expected a certain percentage of those invites to have been accepted.  The rate of acceptance is much higher than anticipated.
+-	-	**ITS A TRAPPPP** This kid tricks you with the invite and then ruins your life.
+0	1	No, I don't get it, Google better go and create a damn datacenter right fucking now! I want in :(.
+-	-	They can use some of my gmail storage space... I've got about 7.5 GB free
+1	4	Growing faster = a bunch of fanboys have started using it but will get tired of it after a month... just like Wave.  Any feature that Google+ has, Facebook will copy after a few months.  You don't think that Facebook will make its "lists" feature more like "circles" now?
+-	-	That's because it's marketing bollocks in order to drive more attention towards the service.
+-	-	This is the apocalypse isn't it?
+-	-	... or maybe, out of quota.
+-	6	&gt; Why would you set your daily invite limit astronomically higher than then your server abilities?  The same reason universities accept many, many more students than actually end up in their freshman class.  The same reason airlines overbook flights and it rarely causes a problem.  The same reason ISPs can provide cable internet by overselling capacity.  You seem to not understand how the world around you works.  **Edit:** Do you think *Reddit* could handle all of its users signing on and posting a new thread, all at the same time?
+1	6	I kind of wonder about that too, disks don't just go from zero to full in an instant. Surely it would have been seen coming from a mile away.  Maybe they just weren't monitoring it closely because they underestimated the popularity of Google+?
+0	2	What is this sentence trying to say?  I'm so confused.  
+-	-	If you want PM me your email I will invite you. 
+-	-	&gt;Maybe they just weren't monitoring it closely because they underestimated the popularity of Google+?  I'm pretty sure they all but came right out and said that. 
+-	-	I've seen 150G of disk space disappear in seconds when 60 daemons broke and dumped core files all at the same time. Yeah, those cores were huge and the devs are dick heads. Our monitoring wasn't built to prevent that, the partition was only 200G to start with. Basically, in rare cases your awesome monitoring just wont help.
+1	4	It's saying "Haha, Wow! 'Mr. lets-cloud-everything' is running out of disk space."
+1	4	I think you're confusing publicity with PR. Life gives you lemons, you tell everyone why lemons are awesome and not terribly sour. 
+0	1	Its a beta version of free software that has just been released for testing with an enormous increase of users over the last few weeks, and its an issue that was caught and promptly fixed,  what the fuck do you expect?
+-	-	&gt;Maybe they just weren't monitoring it closely because they underestimated the popularity of Google+?  This ^ 
+0	6	monitoring data is what google does. I would seriously doubt that theory. 
+-	-	&gt;disks don't just go from zero to full in an instant  They do at Google-scale. 
+-	-	You're writing as if Google+ is one huge monolithic app that has all of it's storage in one central SAN.  Also, the growth of social networks is exponential as more circles are invited. The notification service's storage could've been "half full" a day or two ago.
+1	4	It seems legit to me; the entire reason for having limited invites is discover bugs and mistakes like this without destroying your public perception. People seem to think that it is because they are trying to build hype, but I'm pretty sure they are losing way more by letting facebook launch features publicly before them, plus losing a ton of hype/interest that came with the news stories when it was first launched.  Edit: To be clear, I'm claiming they are trying to turn a negative story positive by saying 'we underestimated how many people would be on google+', when in reality they knew exactly how many people were on it and made a mistake with how they set up their disk space. It seems far more likely than that they purposefully made their service degrade to try to get PR which is what it looks like you are claiming.
+1	4	Ditto here as well
+0	2	Yes, things that are bad: Lines in front of clubs making them appear popular, sold out games making people want in more and Google +.
+-	-	I promise I won't spam your email. 

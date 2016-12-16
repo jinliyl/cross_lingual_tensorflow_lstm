@@ -1,0 +1,6 @@
+-	-	Yeah like a week ago...
+1	6	I wonder what the EU will have to say about that?
+0	2	The "right"?  No, no they do not.  The *ability*?  The access?  I have no doubt that they do.  However, anything you give half a shit about should be encrypted before placing it on ANY network-accessible storage.
+1	-	Solution: application-level encryption.
+-	-	Unless you are simply storing the data that is ~~in the cloud~~ on the internet, the key to decrypt and the current state of the vm are going to be available to investigators.        When utilizing cloud computing you have turned a physical security problem into a software security problem - with more limited legal protections.
+-	-	Solution: EU-based cloud service 

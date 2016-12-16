@@ -1,0 +1,3 @@
+0	2	I should mention that the videophones that in use by deaf people also do audio communications, I have tested with friends and family. (this is however an afterthought so audio quality isn't as good as Sony or Microsofts 4 microphone array) 
+1	4	There are currently videophones in popular use.  The deaf community has, since 2003 or something, been discarding their TTYs in exchange for videophones. Videophones offer a way for the deaf to communicate naturally with sign-language. 
+-	-	[Here is a link to wikipedia discussing present day usage](http://en.wikipedia.org/wiki/Videophone#Present_day_usage)  

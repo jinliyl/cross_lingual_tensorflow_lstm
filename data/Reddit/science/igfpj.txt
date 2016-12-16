@@ -1,0 +1,28 @@
+0	2	I don't know why you keep wanting to talk about things I'm not talking about, but have fun with it. Real time pricing is not a storage technology. 
+-	-	I know - I'm just saying, four years are nothing for community of physicists...
+-	-	In 'the early 21st century'. Not 2015.
+-	-	It solves the problem of non base load supply, why do people insist on storage, base load is needed, but could be provided by hydro, natural gas, even stored hydrogen.  A large amount of power is consumed in refrigeration and air conditioning, these systems don't need base load.
+-	-	The cold fusion of Foccardi is twenty years old and the cold fusion is still considered a much less real than the Higgs boson from perspective of mainstream physics. 
+1	8	Real time pricing is a technology solution.  People want comfortable buildings, cold food, and lighting.
+0	2	Dude, have you seriously never seen a movie in your life?
+1	6	But, but, Back to the future had them!!!!!!!!!
+0	1	Solar this, solar that. Wake me up when someone solves the energy storage problem.
+-	-	great does this mean they can charge even MORE for my printer ink?
+-	-	The problem with solar power isn't the solar power part, it's the energy storage.  We haven't found a way to store electrical energy at anywhere near the densities and durations that are needed to buffer between supply and demand of electricity.  Also, they already have 50%+ efficient cells and it doesn't take much to concentrate light onto one.  Concentrating solar is orders of magnitude more efficient and cheaper than standard PV cells, and I don't think using inkjet printers will overcome that.
+0	1	The sooner the price drops, the sooner these babies are going on my room.  Come to butt-head.
+0	5	But we'll run out of baby pandas to make the ink out of faster.
+1	4	Nice try, HP.
+-	-	&gt;"Some of the materials we want to work with for the most advanced solar cells, such as indium, are relatively expensive," Chang said. "If that's what you're using you can't really afford to waste it, and the inkjet approach almost eliminates the waste."  Mr Chang clearly never printed "black" text with a Canon.
+-	-	Can I buy solar inc and designs for a Canon printer. Or do I have to refill myself ?
+-	-	upvote for the txt to speech button that worked on my eYephOne
+0	1	Sure the solar panels are cheap, but the ink cartridges to keep them running cost a fortune!
+1	4	While I agree that for solar power to replace existing coal/oil/hydro/etc a storage method such as the molten sodium or hydro pumping methods has to exist, having a blended solution at my home where I can run my electric heat/AC, hot water heater, etc during daylight hours off solar would save me real money.  If the cost of the panels (or other collection method) and their associated upkeep becomes affordable without all the subsidies, I'd be very interested.
+-	-	Publish real time price signals
+-	-	If the ink-jet industry tells us anything the machines to make these will cost 45$, but the "ink" will cost more than your house.
+1	4	I think anything which helps keep electricity bills lower will be a significant development for most people.
+-	-	Don't worry about it, in 4 more years we'll all be powering our houses with our Mr. Fusions.
+-	-	What about [this](http://en.wikipedia.org/wiki/Pumped-storage_hydroelectricity) for storage? 
+0	1	concentrators don't use indirect sunlight, so they are strongly limited by location and conditions. Just makes the storage problem worse. They also require far more continuous cost for maintenance.   Ideally you want something like inject printing to cover large areas, but I just don't see those having good efficiency for a while.  bottom line - no good solutions now
+1	4	You're right, some clever new thinking is needed to solve the mismatch between supply and demand which is inevitable as we shift to renewables like solar and wind. However much of the problem can be addressed by using smart grids, such that demand to a greater extent follows the supply (for instance, your washing machine runs whenever electricity is cheap...)   And then there's pumped hydro (Scandinavia could act as Europe's "battery"), compressed air, flywheels... I remain optimistic!
+-	-	A technological solution is needed, not a policy solution.  People want power when they want it and they'll vote to get it.
+1	4	&gt; The problem with solar power isn't the solar power part, it's the energy storage.  This is true, but there are still some very good applications for solar power where this is not a problem. Air conditioning for instance, which you really need when the sun is out. I also believe this should work well for trains, which already run on electricity, mainly run during the day and already use plenty of land that could be used for solar panels. Industries should also be able to use this a lot when they work during the day.   &gt; Concentrating solar is orders of magnitude more efficient and cheaper than standard PV cells, and I don't think using inkjet printers will overcome that.  Concentrated solar power makes sense for some ways of collecting solar power, but for example isn't very good to install on a roof. Both ways have their merits. Costs going down is good news.

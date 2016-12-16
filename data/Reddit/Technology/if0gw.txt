@@ -1,0 +1,18 @@
+0	1	They are on ISP's LAN. They can configure their DHCP to give any address they want. They are implementing NAT, who gives a shit what range they use.
+-	-	So?
+1	4	While the ISP can definitely do this, they shouldn't.  The IP address 10.215.2.32 should be available to be assigned within someone's private/local network.  Of course, most users aren't going to use 10.* as their subnet since they don't need 3 full octets of addresses, but it's definitely considered "bad practice", if nothing else.
+-	-	I am Saad Ghauri
+0	5	I AM 10.0.0.2!!! I HAVE LOTS OF ROOM TO...expand...to my three laptops...ugh.
+0	5	The ISP's LAN as you put it is the same thing, so is 144.169 (corperate) and 192.168.  What's the problem?
+0	5	I have secured the ISP lines into this apartment complex, and am running DHCP off a shittey flashed Linksys router assigning private addresses to those that want them!
+1	4	With that much room, you can probably add your friend's computer too.
+-	-	You'd think they would pick something a little easier to remember...
+1	4	Wait, I'm in Pakistan and i have heard nothing about this
+0	5	I haven't been to Pakistan in over seven years. But isn't mobil link a mobile phone company ?
+0	3	Please don't bring this here, please don't bring this here.
+0	5	hey guyz i keep trying to ddos it but keep getting request timed out wtf?
+0	2	That address is in the 10.0.0.0 block (one of the private IP ranges). Do they have all of their customers behind a NAT? Also, are they running every one of their customers through a single server? Because that's just dumb. 
+-	-	Saad Hamid, is that you?
+-	-	IP addresses like 10.x.x.x are private.
+0	5	I can't figure out if this post is either an indication of total technological stupidity, or a joke.
+-	-	The squid proxy's default port is 3128.

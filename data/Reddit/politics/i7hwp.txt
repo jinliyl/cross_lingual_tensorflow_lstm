@@ -1,0 +1,4 @@
+1	6	Are you telling me that Mitch McConnell isn't a serious politician?
+0	2	All politicians are actors in the theatrical sense.
+-	-	I was joking, McConnell is mudd.
+1	6	Are you telling me that Mitch McConnell isn't a hypocrite?

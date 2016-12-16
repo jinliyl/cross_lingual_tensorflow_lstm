@@ -1,0 +1,1 @@
+-	-	The detail of our individual genetic makeup is already being used to make diagnoses and treatment decisions, albeit in a slow and cumbersome way. The sheer scale of the computational horsepower that doing this in real time will demand, promises to bring the hulking mainframe computer back from the grave.

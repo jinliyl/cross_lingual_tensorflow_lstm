@@ -1,0 +1,6 @@
+0	2	The possibility of abuse and security breaches just went up greatly.  I understand exposing corruption, but always risks passwords to email lead to passwords for other critical systems...     don't get me wrong, I am all for "standing up for ones selves" but risking the security of a nation...
+-	-	Serious question. Assuming you have the chops to break into MILSPEC systems - why leak US military info? Why not Chinese info, or NK info? It's not like the North Koreans are beacons of light and disclosure.  Honestly...if the trend towards NATO-only leakage continues, AntiSec is going to start looking a lot like the sort of tactic an enemy nation would pull.
+0	2	leaks? ahhhh no
+-	-	What does this have to do with "sec"?
+-	-	What security?
+-	-	In the torrent they said they broke into in because it had zero security, using an incredibly simple SQL injection attack. The more this happens, the more I am worried that trained Chinese/Iranian hackers are able to do much more...

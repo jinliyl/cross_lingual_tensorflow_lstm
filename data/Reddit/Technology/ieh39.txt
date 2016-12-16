@@ -1,0 +1,32 @@
+0	1	Can I play too???
+0	2	You make a very good point. Why would a Facebook friend not have Skype?  1. They don't have a use for it. 2. They don't want to use it.  So basically it all comes down to having the convenience to video chat in your browser. I still think if the casual public knows about MS + FB, those two reputations alone could just trash the whole thing.
+-	-	&gt; Yeah no one really uses it...   Uhhh?!? No one really uses Skype? Did I misunderstand you? 
+0	2	....compatible? Every friend of mine wants me to download skype. Whereas google chat requires a small browser extension.
+0	2	Do you have all of your Facebook friends on skype?
+0	1	Yeah no one really uses it... Also "out of the box" really? A) it's not out yet B) Facebook started five years ago and C) they'll have the same functionality at about the same time except Skype is more compatible 
+-	-	Microsoft owns 15% of Facebook and has for about a year.  Even before that they had a close relationship.  Also "half-baked" do you have proof or is this like the other point? Why not partially merge 650m Skype users with 500m Facebook users? This has been in motion for a while. Companies don't just one day hitch up their jeans and implement drastic new features on a whim. Trust me. That's just not how it works. 
+-	-	Yes indeed
+-	-	Howdy boys, want some candy?
+-	-	Skype is more compatible with the browser you're using because it's not a browser plugin, so you can use Lynx in a terminal window if you want to.
+-	-	And Google+ does this out of the box with the standard google video chat from gmail built in.  Furthermore it has group video chat for up to ten people with Hangouts.  
+0	1	Fuck Facebook and Skype. I am trying really hard to transfer my friend base to Google+.  Open the gates Google!
+0	1	motherfuck, given my recent troubles with skype I really fear the future.
+0	2	Too little too late. Plus I can't allow Facebook access to Skype data because we use Skype at work for business purposes and the thought of that leaking into a site which can't protect privacy is a huge deal. I'm pretty sure there are a lot of people in that situation.
+-	-	And it begins...
+-	-	So Microsoft is partnering with Facebook?
+1	4	Hahahahaha 
+1	6	The way things are going, I think either Microsoft or Google is going to eventually regret what happened this past week, but I'm not sure which yet.  I do think the timing is funny. They announce it just in time to compete with Google+ which coincidentally launched a few days earlier. The release will probably be rushed out the  door and riddled with bugs unless they delay it until it's ready and hope people will stick with Facebook on the promise of a future feature.
+1	4	I'll join you , we can be new friends! 
+0	2	One bloated piece of crap integrating another bloated piece of crap. Yay!
+-	-	&gt; google video chat  perhaps, but the penetration of google video chat is minimal, when compared to skype's. 
+0	2	But let's look at this. Why does Facebook need Skype integration? It's not like I can't have two windows open at once. Why not just use the standalone Skype program?  So we get Facebook + Skype. You're in a video chat, well, it's going to launch in a separate window anyway, right? So again, why does FB-Skype have to be involved? Just use the standalone.  This is just Microsoft pushing it's newly bought tech wherever it can. I predict failure.
+-	-	Which is exactly why Facebook hastily threw this deal together. I seriously doubt that anyone at Facebook wanted to get in bed with Microsoft if they didn't have to. They quickly found themselves in a poor competitive position against a big-name service that offers features Facebook hadn't even dreamed of, and Facebook couldn't afford to spend months building a video chat client of their own while Google (rightfully) runs away with their userbase in the meantime. 
+-	-	Not to mention Google is using open technology.
+-	-	Well it's owned by a brand new company so I'd say give it a while 
+0	2	That's why you make multiple accounts, it's not like there isn't a free version of Skype.
+-	-	Yup and they're both out to kill Google in any way possible.
+-	-	Microsoft has had a stake in facebook for at least a year, it is part of the reason Bing is integrated with facebook.  I heard something about an alternative just being launched. 
+-	-	Ok!!!
+-	-	You mean...  "Begun, this social networking war has..."
+0	2	And what is the download not compatible with? You are confusing the requirement to download something with incompatibility.  Even if you have to install a browser extension, you're still downloading and installing something.
+0	2	Is that a new feature of Skype? Last time I needed to use skype I had to download the program.

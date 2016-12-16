@@ -1,0 +1,8 @@
+0	8	Looks simply to be that people begin reading paragraphs and move on to the next paragraph if it is not engaging enough.  Their second screenshot is stupid because it has an image inset in the gap.
+-	-	Should link to the real Nielsen research rather than some half-assed article that butcher's Nielsen's studies...  http://www.useit.com/alertbox/reading_pattern.html
+-	-	It's probably conditioned. Response to standard ad placement or something.
+0	8	I'm pretty sure this is culturally dependent.  If your sentence structure reads left to right, top to bottom... someone scanning the article this make sense for.  Now if you took Japanese or Chinese, I'd imagine it's an inverted and rotated F.
+1	6	I wouldn't be surprised if it is the same for virtually all texts.
+-	-	In other words:  Nobody reads the whole article.
+1	4	Exactly
+0	2	I saw the OP's article in my RSS feed earlier today. It is an article linking to a post that is FIVE YEARS OLD and reporting it like it's new info. /facepalm

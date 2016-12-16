@@ -1,0 +1,22 @@
+-	-	[deleted]
+-	-	I'm only as smart on foreign politics as the news sources that feed my ill conceived perceptions.
+-	-	A proxy with a static IP?  I think they'll see quickly that idea doesn't scale well.  Also, if you have the whole network is on a private IP range you control their default gateway, so you can do any filtering and monitoring you want without the proxy setup.
+-	-	excuse my ignorance but can someone explain what that does?
+-	-	At least they know where it goes to. American ISP's do the tunneling for you, its called CALEA.
+1	4	Can we all use the proxy? Sounds like fun.
+-	-	That's all very interesting, now what I REALLY wanna know is how they're gonna handle things related to Kaplachistan.
+-	-	They couldn't do this transparently? That's pretty fail
+0	3	Stupid Pakistani's. We are giving them a boatload of cash, yet they are a nuclear armed terrorist state. The Pentagon must be drawing up contingency plans to get rid of the nuclear thread from this terrorist, backwards country. 
+-	-	Oh, so they have internet on computers now!
+-	-	There's people with internet in Pakistan?
+-	-	Because that's *so* hard to get around. 
+1	4	&gt; A proxy with a static IP?  It's probably an Anycast setup, and they have a bunch of proxies with the same address (that is why it needs to be in the private range).  Then, they block web traffic from their public addressing space, and you would be 'forced' to go via the proxy.  Looks like they are trying the Chinese way..
+-	-	If you're referring to what a proxy does, it is essentially a middleman/negotiator between you and the website you're trying to connect to. When you request a webpage the request will move through a proxy which, in this case, examines what is being requested and the proxy acts accordingly. Say you search for something the proxy deems politically sensitive (and therefore blacklisted) it will end your request and return a "This site is restricted." message. It would be safe to assume the ISP that is setting all this up for the government is also logging who is looking at banned pages.  
+	No.  	10.0.0.0/8 is not routable over the public Internet, only "local" networks.  For this to work every Pakistani ISP has to add a route to 10.215.2.32.  
+-	-	*sshhh!*  No-one tell them about transparent proxying!
+-	-	[deleted]
+-	-	http://www.eff.org/issues/calea
+1	4	Thanks for generalizing an entire country bro, you must be really smart
+-	-	Agreed.  Then again, the last time somebody in Pakistan tried to do something transparently, [YouTube was knocked off the Internet](http://ripe.net/news/study-youtube-hijacking.html).  I prefer it this way; easy to work around, too.
+-	-	It could also be a hardware solution.  Some kind of front end device providing a VIP in that 10. range with bunches of boxes behind it.  But, that does give you a single point of failure for that solution.  A bad one every 828 days if you're using a Cisco product with redundancy....
+-	-	yes here i am and with much better internet than yours.not joking

@@ -1,0 +1,3 @@
+0	2	In it's current form, the only thing it does is prevent average web users from accidentally stumbling across websites they wouldn't have come across anyway.  This filter is useless and I am strongly inclined to believe that lobbyist groups from the Movie/Music industry are somehow behind it. Of course it isn't being used to filter websites that allegedly host copyright material right now, but it just makes it that much easier for the filter to be re-purposed in the future for such uses and this could be done closed doors without any oversight.
+-	-	I suppose most of the CP/other illegal websites are only accessible via TOR or another anonymous network. Is this filter working against this? 
+0	2	Of course it isn't. AFAIK the only thing it does is rewrite DNS requests.

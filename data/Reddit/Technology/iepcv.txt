@@ -1,0 +1,13 @@
+1	4	It only crashed once when I first went to it (on a fresh Chrome instance, nothing else running.)  Windows 7 x64 + Chrome 12.0.742.112
+0	2	Holy Cow, what a weird bug! We've tried it in firefox on multiple OSes without such glitches (The animation is choppy mainly due to Firefox glitches with CSS3 transitions- We've disabled them for now until we can figure out work-arounds, so right now Firefox uses our fallback player that's choppier)  ...would you mind if I ask what OS you're running on, so we can do more testing for this?
+0	2	XP x64 SP2. Up-to-date FF5 with [a shitload of extensions](http://cjoint.com/data3/3Gcn6gSgtEi_Image1.png).
+1	4	The site flickers when I move the mouse or scroll. I am using Chrome 12.0.742.100 on Mac OSX
+1	4	I'm a founder and the technical lead- AMA!
+0	2	I've been waiting for a flash alternative for a long time.  The potential here is great.  Is it planned to keep this in the browser, or will it go desktop eventually?  Are drawing tools or other features, such as layers, in the works?  Thanks for your work!             
+0	1	You crashed my Google Chrome! That's the first time that's happened.
+1	4	Doesn't work well on Firefox 5: animation is choppy, and there are glitches (see [screen caps](http://www.megaupload.com/?d=FSO9RQKL)).
+1	4	Holy shit this is awesome. Just watch the video at the bottom of the main page.
+0	1	This should now be fixed- Let me know if you are still having this problem.
+0	5	Yes, this is specific to some versions of Chrome+OSX I just found out. We should have it fixed tomorrow. (I'm guessing a CSS3 transitions hardware acceleration bug.)  If you change to firefox it'll work fine.
+1	4	We want to keep it in the browser, since that's the most convenient in the long term (as browsers keep improving)  Drawing tools (more specifically SVG support) has been discussed- It's all a matter of what our customers, in general, end up using our tool for and ask for.
+1	4	What OS &amp; Chrome version, may I ask?  (We're using the latest and greatest browser features- In the near future the browsers &amp; our code will hopefully sort out these kinds of issues)

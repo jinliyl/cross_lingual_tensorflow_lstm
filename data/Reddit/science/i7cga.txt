@@ -1,0 +1,3 @@
+-	-	This is the title of a research article as published in [The Journal of Clinical Investigation](http://www.jci.org). The details of the lead scientist are, as usual, at the end of the paper. If you have any concern about the title, or anything else in this experiment, you can talk to them directly. They may value your input. 
+0	2	Well, its not a sensationalist headline, that's for damn sure. 
+1	4	Haha, it was actually just a joke. I like the title just fine. 

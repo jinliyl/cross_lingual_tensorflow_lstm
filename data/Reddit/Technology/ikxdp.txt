@@ -1,0 +1,28 @@
+-	-	Does it install at all? Its running fine on mine as far as I can tell. 
+1	-	Yeah, it works, it's just missing all of the schmancy stuff like 3D, tilt/rotate maps, vector graphics, etc.
+0	8	Oh, sorry, no, it installs, it just doesn't have any of the fancy 3D bells and whistles, no vector graphics, etc.  It certainly still works though.
+-	-	Ah I see.
+-	-	It works, but it more than often would make me walk a bunch of streets instead of taking a relevant train or even a crosstown bus.  Also, Navigation was updated a couple of days ago I think, but before this, it would not show public transit paths, it would actually make you walk 50 blocks if it had too.
+-	-	As a Wildfire owner running Android 2.2, I beg to differ.
+-	-	I realized that I wasn't aware of this new navigation.  I have been used to the one that was just the directions on public transit.  i never saw it tell me to walk 50 blocks, it was usually a pretty smart combination of buses trolleys and subways.  Sometimes it would choose a less than ideal route though.
+-	6	I don't understand how it can't work on there?  I have a shitty mytouch 3g and ever since I got the 2.2 update I got the updated maps with turn by turn, transit, etc.
+-	-	Transit feature still doesn't really work in London. Only suggests buses and, even then, suggests _wildly_ impractical bus routes.
+-	-	They need to lift the cap of 10 downloadable areas limit.
+-	-	Hasn't the transit feature on google maps been on iPhones since the 3G model? Why did it take so long to bring it over to android?
+0	1	Damn, none of it works on my HTC Wildfire. Oh well.  First smartphone and it's already obsolete. I think I'm going to go live in the woods.
+-	-	my biggest problem with using Google Maps for transportation is that Google uses published timetables. I was really hoping that they'd announce integration with a real-time arrival GPS-based service like nextbus.com.  in San Francisco, this limitation makes Google Maps utterly worthless for planning any sort of punctual trip since MUNI's published timetables are an exercise in fantasy. Buses / streetcars *rarely* show up when they're supposed to, and they *nearly always* take longer to get to your destination than published in the timetable.
+0	2	The new version of maps crashes on me all the time. I've been using it to navigate a new city all weekend and it locks up constantly. 
+0	2	They should offer full city packs for offline usage, its useless when you're in an area with no 3G signal.
+-	-	If you really *need* a video to understand how to use Google Maps... Please use a condom.
+1	4	It gives questionable "best routes" in Chicago too. It's useful but far from perfect.
+0	2	Not to mention the areas are tiny. It still doesn't replace a GPS app.
+1	6	I use it in Philadelphia and it seriously has changed the way I get around the city.  It's amazing.  before all I knew where the trolleys, now I am a bus master as well and can get anywhere in the city pretty easily.
+-	-	Transit/Working directions are not that reliable in my personal experience, which includes downtown Miami and NYC.
+-	-	A public transport option has been available in directions on android too - I am not sure yet what is new with the "transit" feature (besides it telling you when your stop is approaching). 
+-	-	And by shear coincidence - the all new Wildfire S has just been released...
+0	2	My experience in philly is that the times may be a couple minutes off for stuff like trolleys and subways, though it is often pretty damn close, and many times accurate to the minute.  Buses are hit or miss though with the times, but what can you expect.  That's just the fault of the public transit and I know our buses don't have any fancy gps shit, even though it would be awesome.  The one thing about those timetables here though is that while they might not be accurate about the time it arrives, the total trip time is almost always accurate down to the minute for me at least.
+-	-	It has been around since at least the 2.2 update, if not 2.1.
+1	4	Hmm strange, I would think a place like NYC would be fine.  It works great for Philly and NYC has way better public transit as far as I can tell.  Probably works well in DC I would imagine.  Though I would have also imagined NYC would be fine so maybe not.
+-	-	And no satellite below 500ft. I still use my handheld Garmin mostly.
+-	-	Oh okay. They were not really all that clear about this.
+1	4	Actually it works on Android 2.1 and higher, so it should (and does) work fine on the wildfire. 

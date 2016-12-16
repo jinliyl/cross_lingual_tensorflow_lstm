@@ -1,0 +1,4 @@
+1	4	It's cute that you think that.
+1	8	If anyone's a good advocate for Mary Jane, Spiderman is.  Just look what happens any time anyone touches his Mary Jane.
+0	5	Spiderman is actually involved with some legal trouble..   http://www.movies.com/movie-news/tobey-maguire-underground-poker/3394
+-	-	Sorry to break it to you, but Barney Frank introduces this bill every year, and you know what happens from there

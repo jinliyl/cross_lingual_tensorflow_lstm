@@ -1,0 +1,13 @@
+-	-	We've come a long way since [1956](http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two).
+-	-	I used to use the smallest post-its on my desk. Very easy to shuffle priority. High priority is moved closer to me, low priority is moved further away.  But that's too public and is fixed to one location so now I use Google (gmail) Tasks. I still use a few post-its. Task lists are nice because that also tracks completed items.
+1	7	this!!!
+-	-	I use the several notepad approach when working.  I have one active workpad to keep stuff in memory, and 3-5 notepads up on my desk further that has long term memory things I want to store.  I think when you write stuff down in the process of doing work, it keeps your memory free so you don't have to stress it as much.    Since I am a programmer, I knows the awesomeness of processing vs memory tradeoffs.  There is a lot of parallels between computers and people's brains.
+-	-	Am I missing something? Why don't they define what it means to hold an object in one's mind?
+-	-	I was taught 7 in college. 
+-	-	http://www.ai-one.com/2011/06/22/how-many-things-can-we-can-we-hold-in-mind-at-a-time/
+1	6	But can you think and feel (feel, see, hear, etc. Any sense.) at the same time?   IMO, the answer is no. I use this as a shortcut to quieting the mind for meditation.
+0	5	I've never needed more than 1 at a time. 
+-	-	Because this is a psychology/cognitive science/social science paper.
+-	-	The confusion is because there is a difference between your short term memory...and your ability to bring concepts together simultaneously.    Its hard to notice the difference because you've been forced your entire life to flush concepts to make room for others.  The people that magically seem to come up with answers simply have a larger work space. (and yes, that means a few of them are actually able to notice most people's limitation)
+0	5	Read the article?  &gt;Two arrays of objects (colored squares) were separated by a short memory delay. In the second array, the color of a randomly chosen object (the target) was changed. Monkeys were trained to detect this change and make a saccade to it. Cognitive load was increased by varying the number of objects in the arrays from two to ﬁve.  So holding in mind is just remembering the objects color in this case.  ninja edit: I think I'm misunderstanding your question.
+0	3	Depending on the subject matter and how I feel like placing those objects the number seems totally subjective.  I mean I can picture seven starfleet vessels moving around in my head as long as I concentrate on coloring them mentally.  Seven celebrities? I'd have to try pretty hard to contextualize a situation for that mental feat.

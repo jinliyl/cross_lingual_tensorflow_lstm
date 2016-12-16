@@ -1,0 +1,61 @@
+1	4	I agree completely, in fact, it might probably be easier to replace the eye completely to allow for better input data altogether.
+-	-	Clearly, downvoting articles about things you don't like is a good way to use reddit. After all, why should we know about things we don't approve of?
+-	-	I've leafed through the borchures.   [**Is it just me or...**](http://i.imgur.com/1Fo9W.jpg)
+-	-	There's nothing inherently 'near' or 'far' about photons. If you can input them in a way that fools the eye, there's no reason the eye can't focus on them.
+-	-	Glass eyes can move like normal eyes, but the iris cannot contract and expand. An artificial eye of this caliber could easily include an artificial iris.
+-	-	The display could conceivably move around when you move your eyes so it appears to be stationary with respect to your head. Then you'd be able to look at it or away from it.   But focusing would still be a fundamental problem. LEDs just wouldn't work. Tiny little lasers might if they can be guided (so to always take the shape of the lens into account), but nothing that we've yet been able to manufacture at nanometer scales.
+1	4	True, but you'd still need to block some information during a testing scenario, otherwise you could simply send your test to a Chinese guy you paid and copy down his answers. Even in the highly networked future, use of electronics will be severely limited in testing scenarios.
+-	-	But that would involve real-time tracking of retina focus, eye angle, and probably pupil dilation. Then you'd have to adapt the signal to those factors in real-time. You'd probably also need to use lasers to project photons onto the retina, because if you'd just use lights with large emission angles you couldn't really simulate the needed almost parallel beams.  I agree that all this is possible in principle, but I suspect it will prove to be easier to hack into the nerves behind the retina and insert crisp and clear image components there. After all, that's just software.
+0	5	Animal testing? Downvote. Sorry. 
+0	1	Also, nanometer thick wires and self-assembling circuits. Holy shit.
+-	-	This is essentially what I've always wondered. In your eye, in futuristic sunglasses in films from the 90s; how does your eye focus on something closer than your vision allows?  But I didn't read the article.
+-	-	and how much do/will they cost?
+-	-	Regardless of the criticisms, the advancements we continue to make as a society are terrifying and brilliant. There will be a point when these technological advances are so extensive that it will re-define our cultural structure and create massive change in how we view and apply and labor and manufacturing processes. The small things we see happening now are only the beginning...
+1	7	There is really only one way to convey my feelings on this:  ZOMG the future is awesome and it is happening right now!
+-	-	My edit was not meant to imply this article has any merit whatsoever, simply that my earlier criticism was somewhat, though not entirely, misjudged.
+-	-	chronic headaches anyone?
+1	4	this comment here got me:"Advances in technology intimidate and repulse me. It’s not the fact that this is possible that scares me, it’s the fact that we feel the need to dull our sensations with the numbing effects of LED contacts. That we don’t even have the level of focus to stare at a screen, we need the screen attached to our retinas. I’m highly disappointed and a little disgusted by this"  I am sure she was among the ones to find Internet disgusting in 1990's. I am glad she is not using any of the tech advances for her benefit.
+0	5	Ew, I apologize. I didn't anticipate him to dishonestly edit others' comments. But have an upvote, if it makes you feel any better :) and I'll have to have a discussion about ethics with this guy.
+-	-	Apple did some witchcraft with that a while back. And by Apple i mean a company that made sunglasses that you can watch tv with, and it hooks up to your iPhone/iPod  I believe they used mirrors or something to make it seem like its farther away? Im not totally sure, i read it in a SkyMall description once i think.
+1	4	I have no doubt that once the technology matures they will become as cheap and normal as cellphones. 
+-	-	Not just that, but  even if they were able to focus the the image onto the retina - they'd have to consider the focus on far away objects all at the same time.
+-	-	Make it blurry in a way that your eye will naturally focus on it.
+1	4	yes please
+0	1	No more hospital and drugs for you my friend.
+-	-	Can't we just replace the eye itself. They're soo 1.0.
+-	-	I couldn't care less about babbling bionic vision and cybernetic future,  all I want to know is:  how exactly are they going to focus the image on the retina?  
+0	2	Terrible article!  &gt;once green is achieved the Contacts will be able to create pictures in perfect quality.  What nonsense, so far they've been able to get something like 2 LEDs on a lense. Obviously this will scale quite well so in a few years we might see 10x10 arrays and then 100x100 and so on but to pretend that the only thing stopping this from displaying high quality images is green LEDs is complete BS.  Edit: It seems we aren't quite as far away as I imagined. "Kopin Corp. announced a 0.44″ (1.12 cm) SVGA LCD with an astonishing pixel density of 2272 PPI (each pixel only 11¼  μm)." (Source: [Wikipedia](http://en.wikipedia.org/wiki/Pixel_density)) Almost enough to display high resolution images on a retinal display. They haven't yet managed to put it on a contact lens though.  Edit2: I posted my criticism on his website and he turns it into praise, this man has no integrity whatsoever.
+-	-	I think you all made the author's day. Evidence:  http://i.imgur.com/GYzqm.png
+-	-	Reaper Indoctrination
+1	7	SOOOOO very [relevant!](http://www.amazon.com/Rainbows-End-Novel-Foot-Future/dp/0312856849) 
+0	1	Jesus the writing is so bad.
+-	-	What about augmented reality? Can you look beyond the screen without it becoming a blur?
+1	4	Now I can cheat on all my tests, ahahaha!
+-	-	Oh the [possibilities](http://i.imgur.com/heo20.jpg)
+0	1	Unfuckingbelievable - I posted a criticism on this guys website and he turns it into praise. Despicable!
+1	4	Hahaha
+-	-	this is the first thought that comes to mind.
+0	5	I have never met someone with a glass eye, but I always assumed they were fairly easy to spot because they lacked expression. I admit I might be completely wrong on this one.
+1	6	Let me know when I can look through ladies' clothes.
+1	4	Will they make that nifty bionic sound effect every time I zoom focus on a target? That would be so cool.
+-	-	Hahahaha sweet typo in the first line of the article. 
+-	-	About frigging time!  I have been "Mr. Magooing it" for, what feels like, way too many ill-placed manhole covers and improperly marked and illogically placed explosives.....  Yeah, we need to Backus this thing up and make wrongs rights....
+-	-	I never wore contact lenses, but as I understand it, they move with the eyeball. If this is true, then I'd find it a tad inconvenient to always have some information in my peripheral vision without the ability to center it in my vision.  I think glasses with builtin (O)LEDs and one or two cameras would be much more feasible in the near future.
+-	-	I want this. 
+-	-	The eyeball itself is static in appearance (except for the iris, which plays no role in body language). The expressiveness comes from the delicate muscles which surround the eye. Replacing the eyeball with an eyeball-looking artificial counterpart would have no real impact on facial expressions or body language.
+-	-	Display tech is the limiting factor in many things... Cell phones, laptops... It's be great to buy a display-less phone that lasts a week in a charge and what I see can be as big or small as I want.
+1	4	good article
+-	-	&gt;With technology advancing faster and faster, building up to the Singularity concept   ...and then I stopped reading.
+-	-	The stuck up tech guy was me and he editted my damning comment to make it seem like I liked his article.
+-	-	I think we should comment bomb him, food reviewer style
+-	-	[This article](http://spectrum.ieee.org/biomedical/bionics/augmented-reality-in-a-contact-lens/0) covers some of the focus possibilities.
+-	-	The retina display claims to be the maximal resolution of the human eye at the typical distance between eye and cell phone. If the display is as close to the eye as it would be in a contact lens, the display resolution would need to be orders of magnitude higher.
+1	4	Agreed.  You'll need something akin to a current display or an Apple Retina Display.  And then there's how some folks (like myself) can't where any contacts without rapid and dangerous allergic reactions.
+0	1	Yes, it was kinda terrible. I love how he led off by slipping this in:  &gt;With technology advancing faster and faster, building up to the Singularity concept (Click here to read more the Singularity),
+0	1	&gt;Terrible article!  In every way, yes.  I couldn't figure out if he was talking about lenses with built-in displays or lenses that measure glucose levels and transmit the data to another device.  Of course, by the time he mentioned "the singularity" I should've just stopped reading. So joke's on me I guess.
+-	-	Someone explained that because of the way the eye sees light, they'd have to make the pixel density incredibly small. Then, consider that  your eyes only actually focus on one spot, but move quickly. It'd either have to be right in the way of the focal point of your vision, so you wouldn't be able to see anything else, or it'd be off to the side and blurry.   The image that this article uses is also from a completely different technology. It's a strain gauge that's used to measure changes in eye size for certain diseases, and can save/transmit (I forget which) but can't send.   That doesn't change the fact that this article has already been posted at least 3 times, and will probably continue to be reposted over and over.   This is why I downvoted this link.
+-	-	On the legitimacy of small pixels, yes. On the practicality of the technology and the quality of the article, you were completely on the mark. 
+-	-	in a world where information is so readily available, testing on information becomes irrelevant.
+-	-	Hehe, feeling much better already :) I've already instructed him to delete the comment, so far no reply and no complicance.
+-	-	Easier maybe, but I think people won't want this for aesthetic reasons alone.  The eyes are an important way to communicate, and an integral part of our perception of beauty.   Simply removing them for better eyesight will only be appealing to people who either have severely restricted eyesight in the first place, or people who for some reason require to be able to see extremely well. But even those might simply wear a camera in certain situations, and then feed the camera image into their neural system when required.
+-	-	Especially when it starts off with this line "We have all seen the moves". 

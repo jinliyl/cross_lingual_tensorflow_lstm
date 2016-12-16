@@ -1,0 +1,33 @@
+0	5	Jesus Christ it's gotten this bad. When they said they were priming the younger generation to be fine with surveillance on a whole new level we believed them, but we didn't think it'd be this bad. ;-(   Yes. They have to, at least in many countries around the world.
+0	6	So should we be getting people's explicit consent before forwarding their emails to other people?
+0	1	What countries? Generally if X sends mail to Y, Y can show that mail to third parties without having to obtain consent from X. I don't see how this would be any different.
+0	5	They may be able to get away with it by the fact that its an automatic process. If you think of SPAM filtering it works the same way (automatic analyzing of email contents), and no one is complaining there. People are just unhappy about the fact that instead of doing something useful and desired by the user (SPAM filtering), the contents are instead used to generate advertising revenue.
+0	3	Who's on first?
+0	5	They're not.  Do they have to?  
+0	6	Uhh... yes!?
+0	1	yes? The equivilant is me opening all your mail for a bit of a read before you get to.
+1	4	Probably, yes.  Especially if the person who sent you the message is under the impression that they are in private communications with you.
+0	5	I'd say this is at least illegal in the Scandinavian countries. Can't really speak for anyone else, of course.  Edit: Dislike all you want, law is law. If you want to read about it, it's in "LOV 2000-04-14 nr 31: Lov om behandling av personopplysninger" See especially §§ 2 and 8. (Norway)  For Sweden, you have 1998:204 "Personuppgiftslagen".  You can also look at Directive 95/46/EC for an EU-wide law concerning this, though I'm not sure if it's as strict.  If you want some precedents I might be able to cough up something.
+0	6	How is this different to what gmail has been doing forever? Does gmail only scan sent messages? I am sure I have seen ads that made me think they also scan received messages.
+0	2	&gt; Because Yahoo! Mail, Which? Computing has learned  Man, punctuation abuse really doesn't help readability.
+1	4	Really this isn't that bad.  It's similar to what gmail does.  The title is completely misleading.  It scans any e-mail that comes in to your inbox and any e-mail you send, but you can opt out of the targeted marketing aspect.  
+1	4	Um, Gmail has been doing this for years.  BTW, Yahoo also scans every IM you send.  Try sending a Filestube link to someone over Yahoo IM.
+1	4	Good. I was looking for a reason to block all @yahoo.com addresses and wasn't sure if the current amount of advertising was enough to justify it.
+0	1	Yahoo!'s only catching up with what google's been doing with gmail.
+-	-	Doesn't seem like a big deal to me. But then I use GMail.
+0	5	This isn't anything new.  Your email isn't any less secure by allowing the new terms; the email is permanently on their servers and can be acquired with a warrant.  The only thing that had changed is how they process them automatically, devoid of any human interaction.  Same as spam filtering.  The OP's headline is also a bit misleading: Yahoo won't (and have no way to) scan the mailboxes of senders; rather, they are saying they will also scan incoming emails.
+0	1	Damn ?!brands!? and their stupid punctuation in them!
+0	2	I don't understand how they can scan people's emails who don't use Yahoo!
+0	2	The fact that the only email I get from yahoo.com is spam is reason enough.
+0	2	Hope you're blocking gmail as well.
+0	2	I do to. But does Gmail scan your sender's emails?  Because you might be giving consent, but they are not. This wording by Yahoo! is hilarious:  "‘If you consent to this ATOS and communicate with non-Yahoo! users using the Services, you are responsible for notifying those users about this feature.’"  When the hell are you meant to do that?
+1	4	Sorry, I thought that was clear... more context in the link obviously
+-	-	Never heard of them! What are they like?
+0	3	They can't. They can scan emails that are sent to you. The Reddit title is shamefully misleading.
+1	4	You don't *have* to notify them but if you want them to know, it's up to you to tell them.
+-	-	[Gmail does.](http://mail.google.com/support/bin/answer.py?hl=en&amp;answer=1304609)
+-	-	So how are they giving their consent to having their emails analysed?
+-	-	Who? Which? When?
+-	-	&gt; Well you expect them to check for spam when you sign up  Have the senders given consent for this??
+1	4	Well you expect them to check for spam when you sign up, not for them to check for keywords to advertise.
+1	4	Yes.  They gave consent when they hit send to a yahoo.com email address.

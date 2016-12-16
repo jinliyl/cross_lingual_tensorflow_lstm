@@ -1,0 +1,10 @@
+-	-	Forklifts will be forever changed.
+-	-	Not bad for a hemispherical omnidirectional gimballed drive wheel. 
+-	-	Pretty sure I saw this when it was posted before.
+-	-	This will be the drive system for those droids we were looking for... http://www.youtube.com/watch?v=BeS4vESyGGE
+-	-	[See also](http://www.youtube.com/watch?v=fJtpPyVM_y4).
+1	6	yes I have this is a repost
+1	6	That is also pretty awesome, though it seems like a half way point between standard drive systems and what the OP showcased.  Note, the HOG drive wheel has transmission and steering in one, with less than 5 moving parts?  I don't think the forklift shown here is as functional or well-engineered.  EDIT: Now that I've finished that yt video, I can assuredly say that Sidewinder is hella more complex, and I don't mean in a good way.  FIVE motors?!?  The HOG can function at over 90% (seemingly) of omnidirecitonability with a single motor, and gets full 100% omni- with 2 motors.
+-	-	:O
+-	-	Oh I thought he said in the HOG video that it only had the one motor, maybe I misheard... but either way they are both still a huge step in the right direction away from standard in-the-box design for our mechanized conveyances.
+-	-	Not to take away from the HOG, just an FYI. Each wheel on the HOG uses three motors. The motor driving the wheel and the two servos actuating it. A mecanum wheel system only needs four, one driving each wheel.  I've seen some fast moving mecanum setups, but nothing as agile as the HOG. It is very impressive. Hopefully this brings back some interest in the idea. I'd like to see how it scales up.

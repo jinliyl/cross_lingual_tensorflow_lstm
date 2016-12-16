@@ -1,0 +1,25 @@
+-	-	No, it *means* possession. It denotes possession. It's explicit, not implicit.
+-	-	To extend with another European example: here in France it is forbidden to call to boycott against a country's products (i.e., Israel, this was the reason for the "prefectoral circular") so that could be one reason to shut down traffic to some website.
+1	6	"Your" doesn't imply anything. It's by definition possessive
+-	-	So it implies possesion?
+-	-	poop 
+1	6	Why doesn't this already exist everywhere?
+0	2	"unless it's to ease congestion, preserve security or block spam."  oh so its totally useless... that's the bullshit they already spew.  At least here in the states
+1	4	So, there's no writing regarding the qualifiers for the exceptions? I'm happy to see net neutrality passed, but it's rather vague. 
+0	3	Yet again the dutch are awesome...  seriously considering moving there if i can! 
+-	-	Strange law, If ex i order a Voip service and then the isp needs to prioritize my voip(to guaranteeing the service) traffic against my internet traffic is the isp breaking the law if i also use skype? Because i assure you people do complain if the voip service that they pay for stutters.
+1	6	When I read the headline I thought you meant car traffic. Then I saw Spam and got confused.
+0	2	Sounds a bit stupid. Why shouldn't Internet providers have the right to slow down users traffic under certain circumstances?  It's their business and if you don't like it vote with your wallet and move to another provider. 
+-	-	You're Netflix streaming is causing congestion, time to buffer!
+-	-	That's what they say in the US, but they are just responding to public opinion - there is no legislation to which their actions can be compared.  Getting it on the books that they can't slow down some competitor services in order to push their own or block access to VOIP is a worthwhile endeavor.
+1	6	But does that still allow them to selectively choose which traffic to slow down? If they have to slow down all traffic or nothing at all that makes it more difficult to use it as a loophole.
+1	4	Sorry, I am a little uncertain (disclaimer i didnt read the article very closely, dont be too pissed), but i don't really know if this is a good or bad thing. Sounds good to lay-me?
+-	-	and we all know 'preserve security' can mean anything, like a protest
+0	5	I feel truly sorry you Americans have to think that way.
+1	6	That's not how it works here.
+-	-	Your Netflix streaming is causing congestion, time to buffer! (FTFY) "Your" implies possession, "You're" is a short way of writing "You are"
+-	-	Therein lies the complication in legislating technical matters - if they get too specific about exactly what can and cannot be done in a technical sense - they will simply go around it with a different technique.  Sure, this is a bit more vague and might require being challenged in court to set the specific precedents, but 'hopefully' the spirit will be followed.  We still have the basic problem, that neither politicians nor judges are technical-minded - so they tend to ignore such things.
+1	6	Where are you from that 'voting with your wallet' actually works with regards to telecommunication services?
+-	-	We don't have Netflix. 
+0	2	From my perspective, all other traffic is spam causing congestion and possibly threatening my security.
+1	4	Well, yes...otherwise there would be no point.  

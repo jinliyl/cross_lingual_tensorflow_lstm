@@ -1,0 +1,53 @@
+0	1	For the record:  http://php.about.com/od/finishedphp1/ss/simple_poll_php.htm  100% indisputable.  Vote altering.  Any goddamn monkey who took middle school algebra could set this up.    You have to take the total for each option, and divide it by the sum of all three options.  That is CLEARLY not what's happening here.
+0	1	Of course it should be, but it's no the only issue, or even the most important issue.  It's a reform meant to politically buy off the short sighted.  Our country is in multiple wars, and at war with Libya illegally (in violation of the War Powers Act).  Millions are unemployed while corporations sit on trillions in cash and refuse to hire.    The Bush tax cuts were extended 6 weeks before Obama told us that there was no money for social programs or public education.  School loan debt has surpassed credit card debt, as the new generations find their hopes and dreams tied to the banks and other financial institutions.      Intelligence agencies routinely violate our constitutional rights, of which Facebook is the poster child as it cache's our personal information and sells it to the highest bidder (or even gives it away freely to the government, avoiding legislative and judicial hurdles required for the CIA and FBI to do it).  The Gulf of Mexico ecosystem is in ruins.  Fukushima reactors poison our planet with cesium and will for decades or centuries.  Record food prices have created conditions of starvation in the poorest parts of the world.  And you're telling me I should be happy that we might get official permission to smoke weed?  Fuck official permission.  We have to ask ourselves what kind of world we'll be living in in 5, 10, or 20 years from now.  Marijuana reform is not the significant question of our time, the confrontation and overthrow of capitalism by the masses is the question of our time.
+0	5	Turns out it's just broken, or as I'm told   100 - 3X2 = 94% 
+-	-	It's online now, and at 47%/3%/3%
+0	5	Don't you guys think this is a kind of biased poll?  I mean... the people that are going to be linked to the poll are going to be the ones highly favoring its legalization.  
+0	5	So much for representative democracy.
+0	5	I was so high I accidentally voted no. I'll just assume the other 4% did the same.
+1	6	WOAH, one of the few links that includes Barney Frank in the title
+1	6	&gt;No: 3%  &gt;Yes: 47%  &gt;Medical Only: 2% (45874 votes)  Wait, what?
+0	1	the fuck is wrong with that poll?  edit: rigging still in effect at over 40,000 votes.  No 3% Yes 47% For medical reasons only 2% Total Votes: 40358
+-	-	this needs more upvotes. 
+0	1	&gt;As if it matters, its still an overwhelming majority.  Ok, so why is it still illegal?  BTW, they had taken the poll down altogether by the time I got there.  When they ignore public opinion, it matters.
+0	2	What you need to write is this:  &lt;?php  mysql_connect("localhost","username","password") or die(mysql_error());  $que = mysql_query("SELECT COUNT(1) FROM poll;") or die(mysql_error());  $option1 = reset(mysql_fetch_row($que));   $que = mysql_query("SELECT COUNT(2) FROM poll;") or die(mysql_error());  $option2 = reset(mysql_fetch_row($que));   $que = mysql_query("SELECT COUNT(3) FROM poll;") or die(mysql_error());  $option3 = reset(mysql_fetch_row($que));  $total = $option1 + $option2 + $option3;  $perc1 = $option1/$total;  $perc2 = $option2/$total;  $perc3 = $option3/$total;  // this is where you put in the code to make the nice bar graph  ?&gt;   and what they actually wrote is this  &lt;?php  mysql_query(SELECT option1,option2,option3 FROM faked_poll_results;") or die (mysql_error());  // this is where you put in the code to make the nice bar graph  ?&gt;  and then there's a guy sitting there changing the numbers.  Or who knows.  It could be faked in a lot of different ways, they're sure not doing a very good job.
+1	6	A compelling argument?  [Start with seven of them!](http://www.saferchoice.org/content/view/24/53/#crime)  Brief, but they've included sources so feel free to dig even deeper.
+-	-	Looks like the results were fixed to make it look like slightly more people want it to stay criminalized. 
+0	1	Are you crazy? They're completely different!  Cannabis is *much* safer
+0	1	You can die from too much alcohol. No one has ever died from too much THC.
+0	2	Afterwards Ron Paul will introduce a bill that will make all Farts taste like ice cream. Ron like to eat his own farts and ice cream. Poor people can't have ice cream.
+0	2	http://i.imgur.com/iPIve.png  This is probably vote altering in action.  Not that it matters. It's just an internet poll. But doesn't this sort of shit happen all the time? The other 46% was dropped off due to "rounding" right?
+-	-	4000 votes later, same percentages http://imgur.com/ESQRi.jpg
+-	-	As if it matters, its still an overwhelming majority.
+0	2	84% yes when I voted. So is the government working for the people, or working the people?  BTW I don't smoke marijuana and voted yes.
+1	6	No - 4%  Yes - 47%  For medical reasons only - 3%  So what happened to the other 46%?
+1	6	I just refreshed the poll where I last saw the yes at 87%... Now the Yes is 47%, No 4%, Medical Only 3%; somethings not adding up here.
+0	2	A poll? On the Internet?  Reddit, you know what to do.
+1	6	&gt; Should Marijuana ever be legal?   &gt; No 3%   &gt; Yes 47%   &gt; For medical reasons only 3%   &gt; Total Votes: 30359   &gt; Not a Scientific Survey   &gt; Results may not total 100% due to rounding    Whoever wrote their rounding algorithm is stoned.
+0	2	When i voted it was 4% no 47% yes and 3% for medical only totalling 54%? That makes no sense at all, even with 'rounding.'
+0	1	"should marijuana *ever* be legal?" ???? It's already been legal. Nice question bias thrown in there.
+1	4	This is something all real conservatives and liberals can agree upon!
+-	-	Try and get it to 1% no
+0	2	Haha--I clicked yes, saw the bar go up to 84% yes, and then immediately it disappeared and said  &gt; This poll is currenly unavailable. Please check back again later.
+1	6	Not sure why you got downvoted. This issue is apparently like religion to those who wish it to stay illegal.
+1	4	Nah man he must be drunk. I've coded stoned before and got an A for it in uni. 
+0	2	Proof they are rigging the results:  http://i.imgur.com/PLjSW.png  
+0	1	Why would they even bother having a poll? What in the hell is the use? They're just going to come around again and say something stupid like "oh well I don't know what kinda viewers we have on the internet, but..."  If you're gonna have a poll, don't ignore the results just because you don't think its appropriate.
+1	8	Well at least bipartisanship exists somewhere
+1	4	he-he... 84% yes.
+-	-	&gt; Total Votes: 12284  
+-	-	87% say yea.
+0	2	Heroin, coke, and meth should be legal... and sold in liquor stores to anyone over the age of 21. 
+0	5	I yes'd that poll so hard.
+1	4	Thank you for a proper headline.
+1	6	What is the H.R #? I can't find anything except for that H.R.1983 introduced back in May 25th 2011 by Barney Frank, but not wtih Ron Paul.
+0	2	There's a rumour floating around that it's just been rigged so it can't go above 49%.
+0	1	"Poll results not scientific, as the opinions of serfs do not matter."
+0	2	Its just an online poll. Its not representative of the whole country.  They ignore public opinion about much more important things. Politicians don't care.
+1	6	What are they (the pollsters) smoking?
+1	6	I don't smoke it either but until I hear a compelling argument about how its different than booze I don't see why it should be treated any differently. 
+1	5	I used to smoke, never enjoyed it all that much and haven't done it in about a year. I think it's ridiculous that people can go to jail over smoking, growing, or selling a plant. 
+0	1	For that alone, I up-voted you. I myself do not smoke it but i find the whole idea of prohibition just completely mad!  Yeah, hand control of an enormous industry worth billions to organised crime.... effin genius.
+-	-	It was 84% yes when I posted. It looks like it may have gotten to 95% and CNBC didn't like that number.
+-	-	Same issue for me: http://i.imgur.com/F13iK.gif
+1	6	Also, that 50% of the people voted for the "I like Kittens" secret option.

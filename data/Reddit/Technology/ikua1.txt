@@ -1,0 +1,8 @@
+0	1	Well fuck it then just build more coal burning generation stations!  There's obviously nothing we can do.
+1	4	In a way, this is a good thing.  This shows that there's enough energy there worth going after.  But yeah, expensive lesson. 
+1	4	It was built in Ireland, like the Delorian. Enough said.
+-	-	&gt;Digital devices attached to the turbine survived the underwater beating — although wireless communications failed — and the data indicates the force of the tides on the blades was 2½ times greater than anticipated, he said.  I could understand something like that happening in the days before computer simulations, but come on. 
+1	-	Fluid dynamics are still a very open subject of science.  Even with the best models and simulations there's some very big gaps in our understanding.
+1	4	I wonder why they did not design a device to test the tidal force before hand, a simple device just attached to the base before the turbine was deployed..  oh well, at least good will come of it  :)
+-	-	You're talking truth. Have a snack bar.
+--	the lesson of the move Jurasic Park; complex systems breakdown. And of course don't breed raptors; but really - tides = a very complex chaotic system that is hard to model and hard to predict. 

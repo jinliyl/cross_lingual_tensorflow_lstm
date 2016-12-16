@@ -1,0 +1,26 @@
+-	-	the recruiter I talked to just had @uscg.mil
+1	7	Yea it's because the backlash when becoming DHS made the coast guard "not military" although part of the "armed forces". Thanks to all the butt hurt, the coast guard now gets .mil and CACs, etc. Why they aren't just a part of the Navy I have no clue.
+1	6	Good call -- I forgot that the Air Force uses ".af" instead of the longer airforce in their addresses.  The Navy uses .navy.mil, and I think the Marines use .usmc.mil, the army uses .army.mil, and the Coast Guard uses .uscg.mil.
+-	-	Yes, it's @base.branch.mil. Also I believe @us.branch.mil works, and I think they are phasing out the former one, or the latter, I forget.
+-	-	I'm not sure, but I think Coast Guard switched to @uscg.dhs.gov when they got absorbed into DHS.
+1	4	Ah -- you might be right.  [This page](http://www.uscg.mil/access/) lists both.
+-	-	here I'm about to leak every military email address known to man: firstname.lastname@base.mil
+1	4	Wow, this might just be an easier way to get the password to my army e-mail than fucking with the help desk.
+1	4	Well, that'll save China a lot of work. 
+1	4	All of this Anonymous shit reminds me of Timothy Leary's over-the-top promotion of LSD in the 60s. It's more detrimental than helpful. While I appreciate the work that they're doing, this is just one more reason for the powers that be to clamp down on Internet anonymity and the like.
+1	6	Are the passwords encrypted or what, I want to know if i should waste my bandwidth downloading this.
+-	-	The passwords are encoded into an access card that in turn requires a special reader and a PIN to access. I don't know of any DoD accounts (maybe contractors outside of a base?) that don't require this card.  And that's only for the NON-Classified data. Those are seperate computers that have ridiculous security. Even if you had the logins and passwords for all of them, they'd be useless sitting at a computer at home.
+0	1	In the ultimate irony, the original AntiSec manifesto from back in 2001 was all about the irresponsibility of full disclosure. That same manifesto was re-posted when Imageshack was compromised eight years later. The manifesto criticised the 'security industry' for using full-disclosure to develop 'scare tactics' to convince people into by security. Are you listening, Operation AntiSec?  Find the flaws, publish your successes if you must, but have the decency to spare the innocent victims of your activities. Obscure personal data before you publish; otherwise you are considerably worse than those you are attempting to shame.
+1	4	I heard about this yesterday on my ride home from work.  10 minutes later there was a commercial for Booze Allen's Cyber Security Solutions and how "great" they were... I almost had to pull off the road I was laughing so hard. 
+-	-	If only these guys knew how useless it will be to try and crack those passwords. And, god forbid they get access to my account (which would be a complete waste of time), what would they do? I hope they like reading spam from the unit about useless shit. That or emails about people being overdue for X, Y, and Z paperwork, medical, or PT thing. Maybe they want to gauge unit morale??
+-	-	&gt; and “maps and keys for various other treasure chests buried on the islands of government agencies, federal contractors and shady whitehat companies.”  This sounds far more interesting.  What is in that bundle?  Anything saucy or worth while?  Also "shady whitehat" is an oxymoron.  They are at best grey hats or more likely black hats that happen to work for the government.
+1	6	This is actually a great comparison. Tim Leary's promotion of LSD and other drugs didn't have enough connection between the medium and the message. All drugs and no substance. In the same way, I'm sure it's POSSIBLE for hackers to leak military info, but the potential for actual good deeds and positive effect on the community has been overshadowed by bullshit. Hack me some real shit and do good in the world, don't release e-mails of soldiers. Where does that get us?
+-	-	Close: firstname.lastname@branch_of_service.mil
+-	-	Don't worry.  It's probably just duplicating a small part of what they've already done. 
+0	2	You are making no sense.
+-	-	While they're in there, they could fill the stupid surveys my command keeps hounding me to fill out.
+0	2	A "shady whitehat company" is one which does things that are bordering on illegal or unethical like HB Gary and other firms that the government employs for nefarious purposes, while claiming to be good, straight-forward infosec organizations. 
+-	-	I've been out a while, mine was @langley.af.mil I think.
+1	4	&gt;BRIGADE PICNIC THIS WEDNESDAY! Make sure you pick up your tickets!  &gt;Battalion Quartley Award Ceremony in Building 58 next Monday!  &gt;FARWELL Luncheon at Los Rancheros for Col. McDuderface Today!  And they wonder why I don't read emails...
+-	-	I don't see how creating and implementing trojans qualifies as merely bordering on illegal &amp; unethical conduct. It was simply the case that since the activity was at the government's request that it would be very unlikely for them to be prosecuted by the government.
+0	3	No.  He is expressing a common fear.

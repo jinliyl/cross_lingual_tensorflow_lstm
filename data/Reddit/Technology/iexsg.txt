@@ -1,0 +1,13 @@
+1	6	Is it definitely just about WiFi?  If you don't believe how much battery the radio (all connectivity) on your phone takes, turn airplane mode on for the day!  You'll think its going to last forever! 
+0	5	Also, as I mentioned in another post it sounds very similar to an IEEE standard. It's a subset of the WMM WiFi standards that are used for QOS called Power Save. Many APs and mobile chipsets support WMM and the Power Save extensions. It's been around since 2005.  http://www.wi-fi.org/knowledge_center/wmmpowersave/
+-	-	maybe this should be moved to /r/firstworldproblems
+0	2	Horse hockey. It's only applicable in a certain, unusual situation: a highly taxed router that has to queue outgoing packets. Also, while the article mentions tests, it fails to mention the results. For someone who leaves wireless off on my phone most of the time, this is just silly.
+1	4	nice try SleepWell software developer
+0	2	This is lame, my Ultimate Juice app on android has been doing basically the same thing (and more) for a long time now.
+0	2	Saw this before. Again, to double battery life by reducing wifi power use, wifi would have to have been eating up more than half the power originally. That probably doesn't even happen on phones, let alone laptops. So sure, this could help, but *doubling* battery life sounds like quite a bit of a stretch.
+0	2	Urg.  just turn off wifi when you don't need it.
+0	2	Youtube, pandora, and downloading large files are all continuous-use scenarios. If all you did was this, the software would do fuck-all to help your battery life.
+0	2	No real breakthroughs?  What about the links we've seen here about batteries with higher charge densities, batteries that convert kinetic energy to charge, and all the other... well, breakthroughs?  ... Ooooh!  *To hit the market*.  Well played, battery manufacturers.  Now make software to cash in further on the limitations you impose upon your own product!  Step three: Profit.
+0	5	no thanks... connectivity is spotty enough without my device being part of the problem.
+0	5	is there a way to use a black background with white text on an OLED phone. wouldn't that give you tons of extra battery life because most of the screen will effectively be 'off'? idunno.
+0	2	Nay saying aside, if this is router side software couldn't it be hacked into the likes of ddwrt?

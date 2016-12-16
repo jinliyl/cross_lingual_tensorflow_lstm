@@ -1,0 +1,9 @@
+-	-	That's tiny. Wouldn't a lot of it burn up in the atmosphere anyway?
+-	-	[Here](http://impact.ese.ic.ac.uk/cgi-bin/crater.cgi?dist=50&amp;distanceUnits=1&amp;diam=18&amp;diameterUnits=1&amp;pdens=&amp;pdens_select=3000&amp;vel=17&amp;velocityUnits=1&amp;theta=45&amp;wdepth=&amp;wdepthUnits=1&amp;tdens=2500) is the impact simulator result.      The projectile begins to breakup at an altitude of 54000 meters = 177000 ft     The projectile bursts into a cloud of fragments at an altitude of 22300 meters = 73300 ft     The residual velocity of the projectile fragments after the burst is 11 km/s = 6.83 miles/s     The energy of the airburst is 7.70 x 1014 Joules = 0.18 x 100 MegaTons.     No crater is formed, although large fragments may strike the surface.
+1	6	Everybody panic?
+-	-	It's too small to do much damage.  Just a nice light-show in the upper atmosphere.  According to the article, a similar asteroid blew up in the atmosphere in 2008.
+1	7	W00T! Birthday Asteroid
+-	-	It's just a baby.
+-	-	Depends on if everyone has towels or not.
+1	6	Whoa, wait, what? An 18 megaton airburst?  Isn't that a Tunguska Event rock? http://en.wikipedia.org/wiki/Tunguska_event
+-	-	I am going to make sure I bring my towel to work just in case.

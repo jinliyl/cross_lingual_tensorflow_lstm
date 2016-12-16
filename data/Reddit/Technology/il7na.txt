@@ -1,0 +1,10 @@
+0	2	That he can't add.
+0	1	&gt;Cameron estimates that the cost of storing energy using his system is &gt;50 percent cheaper than storing electricity via batteries.  Based on what? How can you guess shit like this?
+1	4	&gt; Through the heat-exchanger, modern compressors and expanders, the system approaches adiabatic operation, achieving efficiencies over 70 percent.  Yeah, right.
+0	8	That iceberg photo was debunked as a fake years ago.  Unfortunate.
+-	-	compared to 90% : http://en.wikipedia.org/wiki/Flywheel_energy_storage ?
+1	4	This article was a lot more interesting when I thought it said "Storing energy with compressed air *underwear*."
+1	4	Yawn.  Hydro plants pump storage system are in the 70-85% range.  If you guys aren't familiar with pump storage, it is actually a pretty cool system.  During the night, they use the excess electricity to pump water to huge reservoirs at the top of a mountain.  During the day, when electricity is needed, the water is released through generators.  This has an efficiency rating of up to 85%.
+1	6	Why not? The cost per megawatt to store electricity is comparable.    Physical batteries are actually quite expensive to produce.  The magnitudes that they are talking about is on a totally different scale.    For example, the worlds largest battery has a capacity for 36 Megawatt.  Enough to power 24,000 homes for ONE hour.  On the other hand, pump storage systems are in the 1.0-2.8 Gigawatt  http://www.bizjournals.com/triangle/news/2011/04/15/duke-plans-worlds-biggest-battery.html  
+-	6	What point are you trying to make?
+-	-	Again, orders of magnitude off in terms of capacity.  Flywheel, while greater efficiency, has limited capacity.  According to the wiki, "Typical capacities range from 3 kWh to 133 kWh.["  The system discussed in the article is talking about storing electricity in the 100s of MW range.

@@ -1,0 +1,3 @@
+0	6	why was he hesitant to answer the question.
+-	6	Full featured malware?
+-	-	Reminds me of an article I read a few years ago, where a guy wanted to confirm or refute a rumor that TV cable boxes had cameras in them that looked out from the case, and he opened his box up and it *did*.  
