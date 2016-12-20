@@ -4,6 +4,7 @@ import random
 from datetime import datetime
 from neuralnet.cross_cnn import cross_cnn
 from neuralnet.single_cnn import single_cnn
+from neuralnet.single_bi_lstm import single_bi_lstm
 
 class train_nn():
 
@@ -21,6 +22,13 @@ class train_nn():
         self.part = part
 
         self.model = model
+        if self.model in ["cnn"]:
+            self.dynamic = False
+        elif self.model in ["lstm", "bi_lstm"]:
+            self.dynamic = True
+        else:
+            self.dynamic = False
+
         self.cn2en = cn2en
         self.sequence_length = sequence_length
         self.cross_lingual = cross_lingual
@@ -60,12 +68,26 @@ class train_nn():
                 labelfeature[pos] = 1
                 data_label.append(labelfeature)
                 ll = line.split(" ")
+                data_feature.append([(int(x) + add_len + 1) for x in ll])
+                '''
                 feature = []
-                if len(ll) < self.sequence_length: 
-                    feature += [(int(x) + add_len + 1) for x in ll] + [0 for x in range(self.sequence_length - len(ll))]
+                if len(ll) < self.sequence_length:
+                    feature += [(int(x) + add_len + 1) for x in ll]
                 else:
                     feature += [(int(x) + add_len + 1) for x in ll[:self.sequence_length]]
+               
+                if self.dynamic:
+                    if len(ll) < self.sequence_length:
+                        feature += [(int(x) + add_len + 1) for x in ll]
+                    else:
+                        feature += [(int(x) + add_len + 1) for x in ll[:self.sequence_length]]
+                else:
+                    if len(ll) < self.sequence_length: 
+                        feature += [(int(x) + add_len + 1) for x in ll] + [0 for x in range(self.sequence_length - len(ll))]
+                    else:
+                        feature += [(int(x) + add_len + 1) for x in ll[:self.sequence_length]]
                 data_feature.append(feature)
+                '''
         return data_label, data_feature
 
 
@@ -170,7 +192,7 @@ class train_nn():
                 grads_and_vars = optimizer.compute_gradients(cross_model.loss)
                 train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
                     
-                sess.run(tf.initialize_all_variables())
+                sess.run(tf.global_variables_initializer())
 
                 #training and test
                 for batch in self.all_batches:
@@ -263,6 +285,16 @@ class train_nn():
                         filter_sizes = self.filter_sizes,
                         num_filters = self.num_filters,
                         l2_reg_lambda = self.l2_reg_lambda)
+                elif self.model == "bi_lstm":
+                    single_model = single_bi_lstm(
+                        sequence_length = self.sequence_length,
+                        num_classes = len(self.emotion_list),
+                        vocab_size = self.vocab_size,
+                        embedding_size = self.embedding_dim,
+                        filter_sizes = self.filter_sizes,
+                        num_filters = self.num_filters,
+                        l2_reg_lambda = self.l2_reg_lambda,
+                        dropout_keep_prob = 0.5)
                 else:
                     pass
                 # Define Training procedure
@@ -271,16 +303,30 @@ class train_nn():
                 grads_and_vars = optimizer.compute_gradients(single_model.loss)
                 train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
                     
-                sess.run(tf.initialize_all_variables())
+                sess.run(tf.global_variables_initializer())
+
+                def gene_pad_seq(batches, seq_len):
+                    batch_seq_len = []
+                    batch_pad = []
+                    for b in batches:
+                        if len(b) < seq_len:
+                            feature = b + [0 for i in range(seq_len - len(b))]
+                            batch_seq_len.append(len(b))
+                        else:
+                            feature = b[:seq_len]
+                            batch_seq_len.append(seq_len)
+                        batch_pad.append(feature)
+                    return batch_pad, batch_seq_len
 
                 #training and test
                 for batch in self.all_batches:
                     y_batch, x_batch = zip(*batch)
                     
-                    # train 
+                    x_batch_pad, x_batch_seq_len = gene_pad_seq(x_batch, self.sequence_length) 
                     feed_dict = {
-                        single_model.input_x: x_batch,
+                        single_model.input_x: x_batch_pad,
                         single_model.input_y: y_batch,
+                        single_model.seq_len: x_batch_seq_len,
                         single_model.dropout_keep_prob: self.dropout_keep_prob,
                     }
                     _, step, loss, kl, accuracy = sess.run(
@@ -292,9 +338,11 @@ class train_nn():
                     # test
                     current_step = tf.train.global_step(sess, global_step)
                     if current_step % self.evaluate_every == 0:
+                        target_test_feature_pad, target_test_feature_seq_len = gene_pad_seq(self.target_test_feature, self.sequence_length)
                         feed_dict = {
-                            single_model.input_x: self.target_test_feature,
+                            single_model.input_x: target_test_feature_pad,
                             single_model.input_y: self.target_test_label,
+                            single_model.seq_len: target_test_feature_seq_len,
                             single_model.dropout_keep_prob: 1,
                         }
                         step, loss, kl, accuracy = sess.run(

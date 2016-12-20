@@ -8,6 +8,7 @@ class single_cnn(object):
         # Placeholders for input, output and dropout
         self.input_x = tf.placeholder(tf.int32, [None, sequence_length], name = "input_x")
         self.input_y = tf.placeholder(tf.int32, [None, num_classes], name = "input_y")
+        self.seq_len = tf.placeholder(tf.int32, [None], name = "seq_len")
         self.dropout_keep_prob = tf.placeholder(tf.float32, name = "dropout_keep_prob")
         self.label_smoothing = label_smoothing
         
@@ -66,7 +67,7 @@ class single_cnn(object):
             b = tf.Variable(tf.constant(0.1, shape=[num_classes]), name="b")
             l2_loss += tf.nn.l2_loss(W)
             l2_loss += tf.nn.l2_loss(b)
-            self.scores = tf.nn.xw_plus_b(self.h_drop, W, b, name="scores")
+            self.scores = tf.nn.log_softmax(tf.nn.xw_plus_b(self.h_drop, W, b, name="scores"))
             self.predictions = tf.argmax(self.scores, 1, name="predictions")
 
         # CalculateMean cross-entropy loss

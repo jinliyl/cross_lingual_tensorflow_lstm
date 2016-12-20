@@ -60,10 +60,11 @@ def train_test():
         emotion_list = ["happy", "touched", "sympathetic", "angry", "amused", "sad", "surprised", "anxious"],
         target_dic_path = "pre_data/QQ_dic",
         target_path = "pre_data/QQ_index",
-        part = 2, 
+        part = 20,
+        model = "cnn",
         cross_lingual = False,
         filter_sizes = [1, 2, 3],
-        embedding_dim = 64)
+        embedding_dim = 128)
     single_train.run()
     
 

@@ -102,8 +102,6 @@ class cross_cnn():
 
         # CalculateMean cross-entropy loss
         with tf.name_scope("loss"):
-            #print(tf.shape(self.scores))
-            #print(tf.shape(self.input_y))
             losses = tf.contrib.losses.softmax_cross_entropy(self.scores, self.input_y, label_smoothing = self.label_smoothing)
             selflosses = tf.contrib.losses.softmax_cross_entropy(tf.cast(self.input_y, tf.float32), 
                         tf.cast(self.input_y, tf.float32), label_smoothing = self.label_smoothing)
