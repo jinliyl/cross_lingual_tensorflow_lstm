@@ -44,7 +44,7 @@ def index_content():
     transform("pre_data/Reddit_dic", "pre_data/Sina_dic", "pre_data/Reddit_dic_trans", "pre_data/Reddit_Sina_trans")
 
 def train_test():
-    '''
+    ''' 
     cross_train = train_nn(
         emotion_list = ["happy", "touched", "sympathetic", "angry", "amused", "sad", "surprised", "anxious"],
         target_dic_path = "pre_data/QQ_dic",
@@ -52,21 +52,23 @@ def train_test():
         target_path = "pre_data/QQ_index",
         source_path = "pre_data/Reddit_index", 
         transfer_path = "pre_data/Reddit_QQ_trans", 
-        part = 8, 
-        embedding_dim = 64)
+        part = 20,
+        model = "bi_lstm", 
+        embedding_dim = 128)
     cross_train.run()
     '''
     single_train = train_nn(
         emotion_list = ["happy", "touched", "sympathetic", "angry", "amused", "sad", "surprised", "anxious"],
         target_dic_path = "pre_data/QQ_dic",
         target_path = "pre_data/QQ_index",
-        part = 20,
-        model = "cnn",
+        part = 2,
+        model = "bi_lstm",
         cross_lingual = False,
         filter_sizes = [1, 2, 3],
-        embedding_dim = 128)
+        embedding_dim = 128,
+        sequence_length = 200)
     single_train.run()
-    
+    #''' 
 
 if __name__ == "__main__":
     #load_and_save()

@@ -5,6 +5,7 @@ from datetime import datetime
 from neuralnet.cross_cnn import cross_cnn
 from neuralnet.single_cnn import single_cnn
 from neuralnet.single_bi_lstm import single_bi_lstm
+from neuralnet.cross_bi_lstm import cross_bi_lstm
 
 class train_nn():
 
@@ -134,6 +135,21 @@ class train_nn():
             if start_index < end_index:
                 yield shuffled_data[start_index:end_index]
 
+    def gene_pad_seq(self, batches):
+        seq_len = self.sequence_length
+        batch_seq_len = []
+        batch_pad = []
+        for b in batches:
+            if len(b) < seq_len:
+                feature = b + [0 for i in range(seq_len - len(b))]
+                batch_seq_len.append(len(b))
+            else:
+                feature = b[:seq_len]
+                batch_seq_len.append(seq_len)
+            batch_pad.append(feature)
+        return batch_pad, batch_seq_len
+
+
     def load_cross_data(self):
         print("Loading data...")
         target_dic_len = self.load_dic_len(self.target_dic_path)
@@ -171,7 +187,7 @@ class train_nn():
 
     def cross_training(self):
         with tf.Graph().as_default():
-            session_conf = tf.ConfigProto(allow_soft_placement = True, log_device_placement = False)
+            session_conf = tf.ConfigProto(allow_soft_placement = True, log_device_placement = False)#, intra_op_parallelism_threads = 24)
             sess = tf.Session(config=session_conf)
             with sess.as_default():
                 if self.model == "cnn":
@@ -183,15 +199,27 @@ class train_nn():
                         filter_sizes = self.filter_sizes,
                         num_filters = self.num_filters,
                         l2_reg_lambda = self.l2_reg_lambda)
+                elif self.model == "bi_lstm":
+                    cross_model = cross_bi_lstm(
+                        sequence_length = self.sequence_length,
+                        num_classes = len(self.emotion_list),
+                        vocab_size = self.vocab_size,
+                        embedding_size = self.embedding_dim,
+                        filter_sizes = self.filter_sizes,
+                        num_filters = self.num_filters,
+                        dropout_keep_prob = self.dropout_keep_prob,
+                        l2_reg_lambda = self.l2_reg_lambda) 
                 else:
                     pass
 
                 # Define Training procedure
-                global_step = tf.Variable(0, name="global_step", trainable=False)
-                optimizer = tf.train.AdamOptimizer(1e-3)
-                grads_and_vars = optimizer.compute_gradients(cross_model.loss)
-                train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
-                    
+                #global_step = tf.Variable(0, name="global_step", trainable=False)
+                #optimizer = tf.train.AdamOptimizer(1e-3)
+                #grads_and_vars = optimizer.compute_gradients(cross_model.loss)
+                #train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
+                
+                train_op = tf.train.MomentumOptimizer(1e-3, 0.9).minimize(cross_model.loss)
+    
                 sess.run(tf.global_variables_initializer())
 
                 #training and test
@@ -209,14 +237,16 @@ class train_nn():
                     else:
                         trans_en = [0]
                         trans_cn = [0]
-                    
+                   
+                    x_batch_pad, x_batch_seq_len = self.gene_pad_seq(x_batch) 
                     # train 
                     feed_dict = {
+                        cross_model.seq_len: x_batch_seq_len,
                         cross_model.input_f_en: f_en[0],
                         cross_model.input_f_cn: f_cn[0],
                         cross_model.input_trans_en: trans_en,
                         cross_model.input_trans_cn: trans_cn,
-                        cross_model.input_x: x_batch,
+                        cross_model.input_x: x_batch_pad,
                         cross_model.input_y: y_batch,
                         cross_model.dropout_keep_prob: self.dropout_keep_prob,
                         cross_model.en_weight: 0.1,
@@ -231,12 +261,14 @@ class train_nn():
                     # test
                     current_step = tf.train.global_step(sess, global_step)
                     if current_step % self.evaluate_every == 0:
+                        target_test_feature_pad, target_test_feature_seq_len = self.gene_pad_seq(self.target_test_feature)
                         feed_dict = {
+                            cross_model.seq_len: target_test_feature_seq_len,
                             cross_model.input_f_en: 0,
                             cross_model.input_f_cn: 1,
                             cross_model.input_trans_en: [0],
                             cross_model.input_trans_cn: [0],
-                            cross_model.input_x: self.target_test_feature,
+                            cross_model.input_x: target_test_feature_pad,
                             cross_model.input_y: self.target_test_label,
                             cross_model.dropout_keep_prob: 1,
                             cross_model.en_weight: 0,
@@ -305,28 +337,16 @@ class train_nn():
                     
                 sess.run(tf.global_variables_initializer())
 
-                def gene_pad_seq(batches, seq_len):
-                    batch_seq_len = []
-                    batch_pad = []
-                    for b in batches:
-                        if len(b) < seq_len:
-                            feature = b + [0 for i in range(seq_len - len(b))]
-                            batch_seq_len.append(len(b))
-                        else:
-                            feature = b[:seq_len]
-                            batch_seq_len.append(seq_len)
-                        batch_pad.append(feature)
-                    return batch_pad, batch_seq_len
-
                 #training and test
                 for batch in self.all_batches:
                     y_batch, x_batch = zip(*batch)
                     
-                    x_batch_pad, x_batch_seq_len = gene_pad_seq(x_batch, self.sequence_length) 
+                    x_batch_pad, x_batch_seq_len = self.gene_pad_seq(x_batch) 
                     feed_dict = {
                         single_model.input_x: x_batch_pad,
                         single_model.input_y: y_batch,
                         single_model.seq_len: x_batch_seq_len,
+                        single_model.batch_size: len(y_batch),
                         single_model.dropout_keep_prob: self.dropout_keep_prob,
                     }
                     _, step, loss, kl, accuracy = sess.run(
@@ -338,11 +358,12 @@ class train_nn():
                     # test
                     current_step = tf.train.global_step(sess, global_step)
                     if current_step % self.evaluate_every == 0:
-                        target_test_feature_pad, target_test_feature_seq_len = gene_pad_seq(self.target_test_feature, self.sequence_length)
+                        target_test_feature_pad, target_test_feature_seq_len = self.gene_pad_seq(self.target_test_feature)
                         feed_dict = {
                             single_model.input_x: target_test_feature_pad,
                             single_model.input_y: self.target_test_label,
                             single_model.seq_len: target_test_feature_seq_len,
+                            single_model.batch_size: len(y_batch),
                             single_model.dropout_keep_prob: 1,
                         }
                         step, loss, kl, accuracy = sess.run(
