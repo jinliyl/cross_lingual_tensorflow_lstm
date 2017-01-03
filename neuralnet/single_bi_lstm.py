@@ -12,14 +12,15 @@ class single_bi_lstm(object):
         self.batch_size = tf.placeholder(tf.int32, name = "batch_size")
         self.dropout_keep_prob = tf.placeholder(tf.float32, name = "dropout_keep_prob")
         self.label_smoothing = label_smoothing
-        
+        self.rnn_cell = "LSTM"
+
         # Keeping track of l2 regularization loss (optional)
         l2_loss = tf.constant(0.0)
 
         #embedding layer
         with tf.device('/cpu:0'), tf.name_scope("embedding"):
             self.embedded_W = tf.Variable(
-                tf.random_uniform([vocab_size, embedding_size], dtype=tf.float32),
+                tf.truncated_normal([vocab_size, embedding_size], stddev=0.1),
                 name="W")
             self.embedded_chars = tf.nn.embedding_lookup(self.embedded_W, self.input_x)
             self.embedded_chars_reshape = tf.reshape(self.embedded_chars, [-1, embedding_size])
@@ -43,10 +44,17 @@ class single_bi_lstm(object):
 
         # Lstm layer
         with tf.name_scope("lstm_layer"):
-            lstm_cell_f = tf.nn.rnn_cell.LSTMCell(embedding_size, forget_bias=1, use_peepholes=True)
-            lstm_cell_b = tf.nn.rnn_cell.LSTMCell(embedding_size, forget_bias=1, use_peepholes=True)
-            lstm_cell_f = tf.nn.rnn_cell.DropoutWrapper(lstm_cell_f, output_keep_prob = dropout_keep_prob)
-            lstm_cell_b = tf.nn.rnn_cell.DropoutWrapper(lstm_cell_b, output_keep_prob = dropout_keep_prob)
+            if self.rnn_cell == "LSTM":
+                lstm_cell_f = tf.nn.rnn_cell.LSTMCell(embedding_size, forget_bias=0.5, use_peepholes=True)
+                lstm_cell_b = tf.nn.rnn_cell.LSTMCell(embedding_size, forget_bias=0.5, use_peepholes=True)
+            elif self.rnn_cell == "GRU":
+                lstm_cell_f = tf.nn.rnn_cell.GRUCell(embedding_size)
+                lstm_cell_b = tf.nn.rnn_cell.GRUCell(embedding_size)
+            else:
+                lstm_cell_f = tf.nn.rnn_cell.BasicLSTMCell(embedding_size, forget_bias=1)
+                lstm_cell_b = tf.nn.rnn_cell.BasicLSTMCell(embedding_size, forget_bias=1)
+            lstm_cell_f = tf.nn.rnn_cell.DropoutWrapper(lstm_cell_f, output_keep_prob=self.dropout_keep_prob)
+            lstm_cell_b = tf.nn.rnn_cell.DropoutWrapper(lstm_cell_b, output_keep_prob=self.dropout_keep_prob)
             outputs, _ = tf.nn.bidirectional_dynamic_rnn(lstm_cell_f, lstm_cell_b, self.embedded_chars, self.seq_len, dtype=tf.float32, time_major=True)
             #self.embedded_chars = tf.split(0, sequence_length, tf.reshape(self.embedded_chars, [-1, embedding_size]))
             #outputs, _, _ = tf.nn.bidirectional_rnn(lstm_cell_f, lstm_cell_b, self.embedded_chars, sequence_length=self.seq_len, dtype=tf.float32)

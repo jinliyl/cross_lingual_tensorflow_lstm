@@ -17,7 +17,9 @@ class cross_bi_lstm(object):
         self.en_weight = tf.placeholder(tf.float32, name = "en_weight")
         self.trans_weight = tf.placeholder(tf.float32, name = "trans_weight")
         self.dropout_keep_prob = tf.placeholder(tf.float32, name = "dropout_keep_prob")
-        
+        self.label_smoothing = label_smoothing
+        self.rnn_cell = "LSTM"
+ 
         # Keeping track of l2 regularization loss (optional)
         l2_loss = tf.constant(0.0)
 

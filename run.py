@@ -62,7 +62,7 @@ def train_test():
         target_dic_path = "pre_data/QQ_dic",
         target_path = "pre_data/QQ_index",
         part = 2,
-        model = "bi_lstm",
+        model = "cnn_highway",
         cross_lingual = False,
         filter_sizes = [1, 2, 3],
         embedding_dim = 128,

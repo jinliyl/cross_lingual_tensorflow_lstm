@@ -6,13 +6,31 @@ from neuralnet.cross_cnn import cross_cnn
 from neuralnet.single_cnn import single_cnn
 from neuralnet.single_bi_lstm import single_bi_lstm
 from neuralnet.cross_bi_lstm import cross_bi_lstm
-
+from neuralnet.single_cnn_highway import single_cnn_highway
 class train_nn():
 
-    def __init__(self, emotion_list = [], target_dic_path = "", source_dic_path = "", target_path = "", source_path = "", 
-                transfer_path = "", part = 1, model = "cnn", cn2en = 1, sequence_length = 150, cross_lingual = True,
-                embedding_dim = 128, filter_sizes = [3, 4, 5], num_filters = 128, dropout_keep_prob = 0.5,
-                l2_reg_lambda = 0.01, batch_size = 64, num_epochs = 200, evaluate_every = 20, checkpoint_every = 100):
+    def __init__(self, 
+                emotion_list = [], 
+                target_dic_path = "",
+                source_dic_path = "", 
+                target_path = "", 
+                source_path = "", 
+                transfer_path = "", 
+                part = 1, 
+                model = "cnn", 
+                cn2en = 1, 
+                sequence_length = 150, 
+                cross_lingual = True,
+                embedding_dim = 128, 
+                filter_sizes = [3, 4, 5], 
+                num_filters = 128, 
+                dropout_keep_prob = 0.5,
+                l2_reg_lambda = 0.01, 
+                batch_size = 64, 
+                num_epochs = 200, 
+                evaluate_every = 20, 
+                checkpoint_every = 100,
+                random_train = True):
         
         self.emotion_list = emotion_list
         self.target_dic_path = target_dic_path
@@ -44,6 +62,9 @@ class train_nn():
         self.num_epochs = num_epochs
         self.evaluate_every = evaluate_every
         self.checkpoint_every = checkpoint_every
+
+        self._seed = 10
+        self.random_train = random_train
 
 
     def run(self):
@@ -113,22 +134,36 @@ class train_nn():
 
     def shuffle_data(self, label, feature, part = 1):
         assert(len(label) == len(feature))
+        if self.random_train:
+            random.seed(self._seed)
         shuffle_indices = np.random.permutation(np.arange(len(label)))
         feature_shuffled = [feature[i] for i in shuffle_indices]
         label_shuffled = [label[i] for i in shuffle_indices]
         if part == 1:
             return feature_shuffled, label_shuffled
-        train = int(len(label) * 1.0 / part)
-        return feature_shuffled[:train], feature_shuffled[train:], label_shuffled[:train], label_shuffled[train:]
+        elif part > 1:
+            train = int(len(label) * 1.0 / part)
+            return feature_shuffled[:train], feature_shuffled[train:], label_shuffled[:train], label_shuffled[train:]
+        else:
+            train = int(len(label) * 1.0 * part)
+            return feature_shuffled[:train], feature_shuffled[train:], label_shuffled[:train], label_shuffled[train:]
 
-    def batch_iter(self, data, batch_size, shuffle = True):
+    def batch_iter(self, data, batch_size, shuffle = False):
         data_size = len(data)
         num_batches = int(len(data)/batch_size) + 1
         if shuffle:
+            if self.random_train:
+               np.random.seed(self._seed) 
             shuffle_indices = np.random.permutation(np.arange(data_size))
             shuffled_data = [data[x] for x in shuffle_indices]
         else:
             shuffled_data = data
+
+        data_len = [len(x[1]) for x in shuffled_data]
+        #print(data_len)
+        len_data = sorted(list(zip(data_len, shuffled_data)), key = lambda x:x[0])
+        shuffled_data = [x[1] for x in len_data]
+
         for batch_num in range(num_batches):
             start_index = batch_num * batch_size
             end_index = min((batch_num + 1) * batch_size, data_size)
@@ -182,12 +217,14 @@ class train_nn():
                 batches += target_batches
             source_batches = self.batch_iter(list(zip(source_train_label, source_train_feature, arr_1, arr_0)), self.batch_size)
             batches += source_batches
+            if self.random_train:
+                random.seed(self._seed)
             random.shuffle(batches)
             self.all_batches += batches
 
     def cross_training(self):
         with tf.Graph().as_default():
-            session_conf = tf.ConfigProto(allow_soft_placement = True, log_device_placement = False)#, intra_op_parallelism_threads = 24)
+            session_conf = tf.ConfigProto(allow_soft_placement = True, log_device_placement = False, intra_op_parallelism_threads = 24)
             sess = tf.Session(config=session_conf)
             with sess.as_default():
                 if self.model == "cnn":
@@ -296,9 +333,15 @@ class train_nn():
         self.all_batches = []
         for i in range(self.num_epochs):
             batches = []
-            for j in range(self.part):
+            if self.part >= 1:
+                part_epochs = self.part
+            else:
+                part_epochs = 1
+            for j in range(part_epochs):
                 target_batches = self.batch_iter(list(zip(target_train_label, target_train_feature)), self.batch_size)
                 batches += target_batches
+            if self.random_train:
+                random.seed(self._seed)
             random.shuffle(batches)
             self.all_batches += batches
     
@@ -327,16 +370,27 @@ class train_nn():
                         num_filters = self.num_filters,
                         l2_reg_lambda = self.l2_reg_lambda,
                         dropout_keep_prob = 0.5)
+                elif self.model == "cnn_highway":
+                    single_model = single_cnn_highway(
+                        sequence_length = self.sequence_length,
+                        num_classes = len(self.emotion_list),
+                        vocab_size = self.vocab_size,
+                        embedding_size = self.embedding_dim,
+                        filter_sizes = self.filter_sizes,
+                        num_filters = self.num_filters,
+                        l2_reg_lambda = self.l2_reg_lambda,
+                        dropout_keep_prob = 0.5)
                 else:
                     pass
                 # Define Training procedure
                 global_step = tf.Variable(0, name="global_step", trainable=False)
-                optimizer = tf.train.AdamOptimizer(1e-3)
+                optimizer = tf.train.AdamOptimizer(5e-4)
                 grads_and_vars = optimizer.compute_gradients(single_model.loss)
                 train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
                     
                 sess.run(tf.global_variables_initializer())
 
+                max_accu = 0
                 #training and test
                 for batch in self.all_batches:
                     y_batch, x_batch = zip(*batch)
@@ -347,7 +401,7 @@ class train_nn():
                         single_model.input_y: y_batch,
                         single_model.seq_len: x_batch_seq_len,
                         single_model.batch_size: len(y_batch),
-                        single_model.dropout_keep_prob: self.dropout_keep_prob,
+                        single_model.dropout_keep_prob: 0.7,
                     }
                     _, step, loss, kl, accuracy = sess.run(
                         [train_op, global_step, single_model.loss, single_model.kl, single_model.accuracy],
@@ -369,7 +423,9 @@ class train_nn():
                         step, loss, kl, accuracy = sess.run(
                             [global_step, single_model.loss, single_model.kl, single_model.accuracy],
                             feed_dict)
+                        if accuracy > max_accu:
+                            max_accu = accuracy
                         time_str = datetime.now().isoformat()
-                        print("eval  {}: step {}, loss {:g}, kl {:g}, acc {:g}".format(time_str, step, loss, kl, accuracy))
+                        print("eval  {}: step {}, loss {:g}, kl {:g}, acc {:g}, max_accu{:g}".format(time_str, step, loss, kl, accuracy, max_accu))
 
         
